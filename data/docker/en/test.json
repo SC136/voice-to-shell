@@ -1,0 +1,1066 @@
+[
+    {
+      "prompt": "Delete the container named api.",
+      "command": "docker rm api"
+    },
+    {
+      "prompt": "Remove the container named database after it refused to stop.",
+      "command": "docker rm -f database"
+    },
+    {
+      "prompt": "Return docker system status in json.",
+      "command": "docker info --format 'json'"
+    },
+    {
+      "prompt": "Create a builder named default.",
+      "command": "docker buildx create --name default"
+    },
+    {
+      "prompt": "Update apache container to restart unless stopped.",
+      "command": "docker update --restart=unless-stopped apache"
+    },
+    {
+      "prompt": "Kill the container named ubuntu with SIGTERM signal.",
+      "command": "docker kill -s SIGTERM ubuntu"
+    },
+    {
+      "prompt": "List only the untagged images in this environment.",
+      "command": "docker images -f dangling=true"
+    },
+    {
+      "prompt": "Generate the signing key named ubuntu.",
+      "command": "docker trust key generate ubuntu"
+    },
+    {
+      "prompt": "Get detailed info from the container named temperature.",
+      "command": "docker inspect --type container temperature"
+    },
+    {
+      "prompt": "Remove trust for the official python image with version three point nine.",
+      "command": "docker trust revoke python:3.9"
+    },
+    {
+      "prompt": "Run an interactive bash shell in the temperature service from compose.",
+      "command": "docker compose exec temperature bash"
+    },
+    {
+      "prompt": "Look at the grafana image to see the setup.",
+      "command": "docker inspect --type image grafana/grafana"
+    },
+    {
+      "prompt": "Export the firmware container filesystems as a tar file.",
+      "command": "docker export -o firmware.tar firmware"
+    },
+    {
+      "prompt": "Inspect the ports in use by the container named data.",
+      "command": "docker port data"
+    },
+    {
+      "prompt": "Inspect the telegraf image with latest tag to see the sign info and trusted keys.",
+      "command": "docker trust inspect telegraf:latest"
+    },
+    {
+      "prompt": "Show only events for the container named ubuntu.",
+      "command": "docker events --filter container=ubuntu"
+    },
+    {
+      "prompt": "Start the container created named modem in a terminal.",
+      "command": "docker start -i modem"
+    },
+    {
+      "prompt": "Stop the container named redis with the SIGINT signal.",
+      "command": "docker stop -s SIGINT redis"
+    },
+    {
+      "prompt": "Inspect the space used by the python container.",
+      "command": "docker inspect -s python"
+    },
+    {
+      "prompt": "Check which version of Docker is installed.",
+      "command": "docker version"
+    },
+    {
+      "prompt": "Remove build cache.",
+      "command": "docker buildx prune"
+    },
+    {
+      "prompt": "Show the history of the official python image in json.",
+      "command": "docker history --format 'json' python:3.10"
+    },
+    {
+      "prompt": "Display the current docker version in json.",
+      "command": "docker version --format 'json'"
+    },
+    {
+      "prompt": "List all containers.",
+      "command": "docker ps -a"
+    },
+    {
+      "prompt": "Rename edge container as compute.",
+      "command": "docker rename edge compute"
+    },
+    {
+      "prompt": "Inspect the grafana image with latest tag to see info about keys and signature.",
+      "command": "docker trust inspect grafana/grafana:latest"
+    },
+    {
+      "prompt": "Show only two references that match with sensor.",
+      "command": "docker search --limit 2 sensor"
+    },
+    {
+      "prompt": "Publish the pipeline manifest with the latest tag.",
+      "command": "docker manifest push pipeline:latest"
+    },
+    {
+      "prompt": "Print the details of the aggregator, broker and logs volumes.",
+      "command": "docker volume inspect aggregator broker logs"
+    },
+    {
+      "prompt": "Add wendy as signer for the link repo in network directory using her public key.",
+      "command": "docker trust signer add --key wendy.pub wendy network/link"
+    },
+    {
+      "prompt": "Update the assitant container to two point five CPUs.",
+      "command": "docker update --cpus=2.5 assitant"
+    },
+    {
+      "prompt": "Show resource stats for all containers.",
+      "command": "docker stats -a"
+    },
+    {
+      "prompt": "Search for official python images only.",
+      "command": "docker search -f is-official=true python"
+    },
+    {
+      "prompt": "See what changed in a container named centos.",
+      "command": "docker diff centos"
+    },
+    {
+      "prompt": "Generate a volume called flowdata.",
+      "command": "docker volume create flowdata"
+    },
+    {
+      "prompt": "Download all tags of the curl image.",
+      "command": "docker pull -a curlimages/curl"
+    },
+    {
+      "prompt": "Copy the logs folder inside the var directory from aggregator container and keep ownership info.",
+      "command": "docker cp -a aggregator:/var/logs aggregator"
+    },
+    {
+      "prompt": "Compile the image using a cloud token from system secrets folder.",
+      "command": "docker build --secret id=cloud,src=/etc/secrets/cloud ."
+    },
+    {
+      "prompt": "Initialize a builder called builder.",
+      "command": "docker buildx create --name builder"
+    },
+    {
+      "prompt": "Load the services tar file as a docker image.",
+      "command": "docker load -i services.tar"
+    },
+    {
+      "prompt": "Apply the tag for cloud container with one point one version from the current image marked as latest.",
+      "command": "docker tag cloud:latest cloud:1.1"
+    },
+    {
+      "prompt": "Produce a new signer key named device.",
+      "command": "docker trust key generate device"
+    },
+    {
+      "prompt": "Follow the logs output from services to check if it restarts when it fails.",
+      "command": "docker compose logs -f"
+    },
+    {
+      "prompt": "Limit the event output for the python container.",
+      "command": "docker events --filter container=python"
+    },
+    {
+      "prompt": "Generate the api image and push version one point zero tag to admin.",
+      "command": "docker build --push -t admin/api:1.0 ."
+    },
+    {
+      "prompt": "Turn off the alarm plugin.",
+      "command": "docker plugin disable alarm"
+    },
+    {
+      "prompt": "See live services logs output and check if it restarts after crashing.",
+      "command": "docker compose logs -f"
+    },
+    {
+      "prompt": "Import the microservices tar file without showing output.",
+      "command": "docker load -q --input microservices.tar"
+    },
+    {
+      "prompt": "Inspect the pipeline manifest latest tag.",
+      "command": "docker manifest inspect pipeline:latest"
+    },
+    {
+      "prompt": "Search redis images and output them as json.",
+      "command": "docker search redis --format 'json'"
+    },
+    {
+      "prompt": "Run edge container in background and show its ID.",
+      "command": "docker run -d edge"
+    },
+    {
+      "prompt": "Open bash inside the node container running as guest.",
+      "command": "docker exec -u guest -it node bash"
+    },
+    {
+      "prompt": "Look for the images named debian with json format.",
+      "command": "docker search debian --format 'json'"
+    },
+    {
+      "prompt": "Show how much disk space is ubuntu container using.",
+      "command": "docker inspect -s ubuntu"
+    },
+    {
+      "prompt": "Look up centos image that are official.",
+      "command": "docker search -f is-official=true centos"
+    },
+    {
+      "prompt": "Show all Docker images as json.",
+      "command": "docker images --format 'json'"
+    },
+    {
+      "prompt": "Monitor real time docker events.",
+      "command": "docker system events"
+    },
+    {
+      "prompt": "Run an interactive bash shell in the running container alias broker.",
+      "command": "docker exec -it broker bash"
+    },
+    {
+      "prompt": "Push the mongo database image without progress bars.",
+      "command": "docker push -q mongodb:6.0"
+    },
+    {
+      "prompt": "Make a new docker network named staging.",
+      "command": "docker network create staging"
+    },
+    {
+      "prompt": "Create a network called aggregator.",
+      "command": "docker network create aggregator"
+    },
+    {
+      "prompt": "Create a container using the busy box image that restarts on failure.",
+      "command": "docker create --restart=on-failure busybox"
+    },
+    {
+      "prompt": "Specify ARM version seven setting OS to Linux, arch to ARM and variant version seven to annotate the device manifest with latest tag with the iot image.",
+      "command": "docker manifest annotate device:latest iot:armv7 --os linux --arch arm --variant v7"
+    },
+    {
+      "prompt": "Show Docker system information.",
+      "command": "docker info"
+    },
+    {
+      "prompt": "Launch a Redis container on an ARM sixty four architecture.",
+      "command": "docker run --platform=linux/arm64 redis"
+    },
+    {
+      "prompt": "Upload boards manifest with version two point five to docker hub.",
+      "command": "docker manifest push boards:2.5"
+    },
+    {
+      "prompt": "Load the edge tar file for AMD sixty four systems.",
+      "command": "docker load --platform=linux/amd64 --input edge.tar"
+    },
+    {
+      "prompt": "Restart the message container with a fifteen second timeout.",
+      "command": "docker restart -t 15 message"
+    },
+    {
+      "prompt": "Get docker system info in json format.",
+      "command": "docker info --format 'json'"
+    },
+    {
+      "prompt": "Deploy ble container in background and get his ID.",
+      "command": "docker run -d ble"
+    },
+    {
+      "prompt": "Unlink cisco container from aggregator network.",
+      "command": "docker network disconnect aggregator cisco"
+    },
+    {
+      "prompt": "Run python container and restart only if it fails four times.",
+      "command": "docker run --restart=on-failure:4 python"
+    },
+    {
+      "prompt": "Remove the redis image but do not delete untagged parents.",
+      "command": "docker rmi --no-prune redis"
+    },
+    {
+      "prompt": "Archive the ubuntu image with latest tag for thirty eighty six system in a tar file named ubuntu.",
+      "command": "docker save --platform=linux/386 -o ubuntu.tar ubuntu:latest"
+    },
+    {
+      "prompt": "Upload all compose service images to the registry.",
+      "command": "docker compose push"
+    },
+    {
+      "prompt": "Remove unused docker volumes.",
+      "command": "docker volume prune"
+    },
+    {
+      "prompt": "Display system info from Docker.",
+      "command": "docker info"
+    },
+    {
+      "prompt": "Attach to the running database container and detach with control and z.",
+      "command": "docker attach --detach-keys='ctrl-z' database"
+    },    
+    {
+      "prompt": "Log out from docker",
+      "command": "docker logout"
+    },
+    {
+      "prompt": "Print the docker version.",
+      "command": "docker version"
+    },
+    {
+      "prompt": "Start again the ubuntu container.",
+      "command": "docker start ubuntu"
+    },
+    {
+      "prompt": "Activate the ping plugin.",
+      "command": "docker plugin enable ping"
+    },
+    {
+      "prompt": "Remove the builder instance named default.",
+      "command": "docker buildx rm default"
+    },
+    {
+      "prompt": "Activate firmware container with live output.",
+      "command": "docker start -a firmware"
+    },
+    {
+      "prompt": "Remove debug plugin.",
+      "command": "docker plugin rm debug"
+    },
+    {
+      "prompt": "Delete home assistant image but do not prune related images.",
+      "command": "docker rmi --no-prune homeassistant/home-assistant"
+    },
+    {
+      "prompt": "Log in to Docker.",
+      "command": "docker login"
+    },
+    {
+      "prompt": "Revoke trust for the apache kafka image with version four point zero point zero.",
+      "command": "docker trust revoke apache/kafka:4.0.0"
+    },
+    {
+      "prompt": "Connect azure container to aggregator network.",
+      "command": "docker network connect aggregator azure"
+    },
+    {
+      "prompt": "Start a container with the grafana image that always restarts.",
+      "command": "docker create --restart=always grafana/grafana"
+    },
+    {
+      "prompt": "Set the service named network to five containers.",
+      "command": "docker compose scale network=5"
+    },
+    {
+      "prompt": "Push the official ubuntu image to ARM version seven.",
+      "command": "docker push --platform linux/arm/v7 ubuntu:22.04"
+    },
+    {
+      "prompt": "Create a volume named session.",
+      "command": "docker volume create session"
+    },
+    {
+      "prompt": "Stop the container alias firmware.",
+      "command": "docker stop firmware"
+    },
+    {
+      "prompt": "Show the token to join as a manager in the swarm.",
+      "command": "docker swarm join-token manager"
+    },
+    {
+      "prompt": "Check the ip address linked to python container.",
+      "command": "docker inspect -f {{.NetworkSettings.IPAddress}} python"
+    },
+    {
+      "prompt": "Push the kura edge image with content trust enabled.",
+      "command": "docker push --disable-content-trust=false eclipse/kura"
+    },
+    {
+      "prompt": "Set up a container from the busybox image with zero point six CPU and two hundred fifty six megabytes memory.",
+      "command": "docker create --cpus 0.6 --memory 256m busybox"
+    },
+    {
+      "prompt": "Create and start a new ubuntu container named sensor and open a terminal.",
+      "command": "docker run -it --name sensor ubuntu bash"
+    },
+    {
+      "prompt": "Switch to the data builder.",
+      "command": "docker buildx use data"
+    },
+    {
+      "prompt": "Force removal the curl image.",
+      "command": "docker rmi -f curlimages/curl"
+    },
+    {
+      "prompt": "Save sensor container as sensor with two point five version without pausing it.",
+      "command": "docker commit --pause=false sensor sensor:2.5"
+    },
+    {
+      "prompt": "Freeze a container named debian.",
+      "command": "docker pause debian"
+    },
+    {
+      "prompt": "List builder instances.",
+      "command": "docker buildx ls"
+    },
+    {
+      "prompt": "Disable streaming stats a single time for analytics container.",
+      "command": "docker stats --no-stream analytics"
+    },
+    {
+      "prompt": "Force the exit of the container named python with a kill signal.",
+      "command": "docker kill -s SIGKILL python"
+    },
+    {
+      "prompt": "Push every service image defined in docker compose.",
+      "command": "docker compose push"
+    },
+    {
+      "prompt": "Upload the apache server image for ARM sixty four system.",
+      "command": "docker push --platform linux/arm64 httpd"
+    },
+    {
+      "prompt": "Initialize the stopped containers named camera and sensor.",
+      "command": "docker start camera sensor"
+    },
+    {
+      "prompt": "Sign in to Docker.",
+      "command": "docker login"
+    },
+    {
+      "prompt": "Open a bash shell in the previous created container named server.",
+      "command": "docker start -i camera"
+    },
+    {
+      "prompt": "Scale sensor service to one container.",
+      "command": "docker compose scale sensor=1"
+    },
+    {
+      "prompt": "Reveal all running processes in the grafana container.",
+      "command": "docker top grafana"
+    },
+    {
+      "prompt": "Pull all tags from Centos image.",
+      "command": "docker pull -a centos"
+    },
+    {
+      "prompt": "Save the services container as an image tagged latest.",
+      "command": "docker commit services services:latest"
+    },
+    {
+      "prompt": "Register jhon to sign the lora folder inside devices repository with his public key.",
+      "command": "docker trust signer add --key jhon.pub jhon devices/lora"
+    },
+    {
+      "prompt": "See current Docker disk usage.",
+      "command": "docker system df"
+    },
+    {
+      "prompt": "Exit Docker session.",
+      "command": "docker logout"
+    },
+    {
+      "prompt": "Save both analytics with version one point zero and node with version one point one in a packaged tar called manager.",
+      "command": "docker save -o manager.tar analytics:1.0 node:1.1"
+    },
+    {
+      "prompt": "Create the private manifest with one point zero version from broker images with ARM version seven.",
+      "command": "docker manifest create private:1.0 broker:armv7"
+    },
+    {
+      "prompt": "Create a tar file named data from the measure version two point one and pipeline version two point two for ARM version seven.",
+      "command": "docker save --platform=linux/arm/v7 -o data.tar measure:2.1 pipeline:2.2"
+    },
+    {
+      "prompt": "Execute data script inside the home folder from the sensor container as a background job.",
+      "command": "docker exec -d sensor /bin/bash /home/data.sh"
+    },
+    {
+      "prompt": "Transfer the data folder inside the home directory from the sensor container to the local machine named sensor while preserving user and group IDs.",
+      "command": "docker cp -a sensor:/home/data sensor"
+    },
+    {
+      "prompt": "Start a Redis container called cache by mapping the redis folder located in data on the host to the data folder.",
+      "command": "docker run -v /data/redis:/data --name cache redis"
+    },
+    {
+      "prompt": "Build the container with dashboard credential from user secret file.",
+      "command": "docker build --secret id=dashboard,src=/home/user/.secrets/dashboard ."
+    },
+    {
+      "prompt": "Start ubuntu container and show the output live.",
+      "command": "docker start -a ubuntu"
+    },
+    {
+      "prompt": "Show logs from mongo container since two hours.",
+      "command": "docker logs --since=2h mongo"
+    },
+    {
+      "prompt": "Initialize the context called secure.",
+      "command": "docker context create secure"
+    },
+    {
+      "prompt": "View ubuntu container logs for the past ten minutes.",
+      "command": "docker logs --since=10m ubuntu"
+    },
+    {
+      "prompt": "Remove unused Docker data.",
+      "command": "docker system prune"
+    },
+    {
+      "prompt": "Start the centos image and publish port twenty two for basic web access.",
+      "command": "docker run -p 22:22 centos"
+    },
+    {
+      "prompt": "Set ubuntu container to use only one CPU.",
+      "command": "docker update --cpus=1 ubuntu"
+    },
+    {
+      "prompt": "Create an image from manager container with one point zero version and do not pause it during the commit",
+      "command": "docker commit --pause=false manager manager:1.0"
+    },
+    {
+      "prompt": "Save secure context in a packaged file named secure.",
+      "command": "docker context export secure secure.tar"
+    },
+    {
+      "prompt": "Deploy all Compose services in the background.",
+      "command": "docker compose up -d"
+    },
+    {
+      "prompt": "Modify eclipse container with five hundred megabytes of memory.",
+      "command": "docker update -m 500m eclipse"
+    },
+    {
+      "prompt": "Block until kafka and balena containers stop.",
+      "command": "docker wait kafka balena"
+    },
+    {
+      "prompt": "Get the join token for a worker node.",
+      "command": "docker swarm join-token worker"
+    },
+    {
+      "prompt": "Compile the default IoT image build set.",
+      "command": "docker buildx bake"
+    },
+    {
+      "prompt": "Display stats for pipeline and data containers without stream.",
+      "command": "docker stats --no-stream pipeline data"
+    },
+    {
+      "prompt": "View logs for ubuntu container with timestamps",
+      "command": "docker logs -t ubuntu"
+    },
+    {
+      "prompt": "Import the packaged archive named python into docker.",
+      "command": "docker load -i python.tar"
+    },
+    {
+      "prompt": "Inspect debug plugin.",
+      "command": "docker plugin inspect debug"
+    },
+    {
+      "prompt": "Start a clean image build without using cached layers.",
+      "command": "docker build --no-cache ."
+    },
+    {
+      "prompt": "Return a full image listing.",
+      "command": "docker images -a"
+    },
+    {
+      "prompt": "Create the tag for host container with four point nine version from the current image labelled as latest.",
+      "command": "docker tag host:latest host:4.9"
+    },
+    {
+      "prompt": "Load aggregator packaged file with no output shown.",
+      "command": "docker load -q --input aggregator.tar"
+    },
+    {
+      "prompt": "Assign the new firewall name to the security container.",
+      "command": "docker rename security firewall"
+    },
+    {
+      "prompt": "Make a context named sensor.",
+      "command": "docker context create sensor"
+    },
+    {
+      "prompt": "Check file changes in the python container.",
+      "command": "docker diff python"
+    },
+    {
+      "prompt": "Track live system events from Docker.",
+      "command": "docker system events"
+    },
+    {
+      "prompt": "Pause until containers named python, ubuntu and apache end.",
+      "command": "docker wait python ubuntu apache"
+    },
+    {
+      "prompt": "Get docker help.",
+      "command": "docker"
+    },
+    {
+      "prompt": "Authenticate using the username sensor.",
+      "command": "docker login -u sensor"
+    },
+    {
+      "prompt": "Start a new docker swarm cluster.",
+      "command": "docker swarm init"
+    },
+    {
+      "prompt": "Download the mongo database image without showing progress.",
+      "command": "docker pull -q mongodb:6.0"
+    },
+    {
+      "prompt": "Import the secure context from the firmware tar file.",
+      "command": "docker context import secure firmware.tar"
+    },
+    {
+      "prompt": "Create the build image named app and tag it with one point zero version.",
+      "command": "docker build -t app:1.0 ."
+    },
+    {
+      "prompt": "Return only container identifiers.",
+      "command": "docker ps -q"
+    },
+    {
+      "prompt": "Copy the scripts folder inside the home directory from the pipeline container without output.",
+      "command": "docker cp -q pipeline:/home/scripts pipeline"
+    },
+    {
+      "prompt": "Print layer data of the home assistant image in json.",
+      "command": "docker history --format 'json' homeassistant/home-assistant"
+    },
+    {
+      "prompt": "Push all tags of the Centos image to the registry.",
+      "command": "docker push -a centos"
+    },
+    {
+      "prompt": "Send the SIGQUIT signal to stop the centos container.",
+      "command": "docker stop -s SIGQUIT centos"
+    },
+    {
+      "prompt": "Build the container image named debian with latest tag.",
+      "command": "docker build -t debian:latest ."
+    },
+    {
+      "prompt": "Commit the iot container as an image named data.",
+      "command": "docker commit iot data"
+    },
+    {
+      "prompt": "Send the official ubuntu image to the registry in silent mode.",
+      "command": "docker push -q ubuntu:22.04"
+    },
+    {
+      "prompt": "Show me the list of builder instances.",
+      "command": "docker buildx ls"
+    },
+    {
+      "prompt": "Remove the sensor container and its volumes.",
+      "command": "docker rm -v sensor"
+    },
+    {
+      "prompt": "List containers in running status.",
+      "command": "docker ps -f status=running"
+    },
+    {
+      "prompt": "Delete the ping and serial plugins.",
+      "command": "docker plugin rm ping serial"
+    },
+    {
+      "prompt": "Enable the builder instance named sync.",
+      "command": "docker buildx use sync"
+    },
+    {
+      "prompt": "Delete ubuntu along with its volumes.",
+      "command": "docker rm -v ubuntu"
+    },
+    {
+      "prompt": "Build the dashboard image and publish the latest tag in data directory.",
+      "command": "docker build --push -t data/dashboard:latest ."
+    },
+    {
+      "prompt": "Combine firmware ARM version seven and firmware AMD sixty four into a manifest named secure with latest tag.",
+      "command": "docker manifest create secure:latest firmware:armv7 firmware:amd64"
+    },
+    {
+      "prompt": "Show docker events in json.",
+      "command": "docker events --format 'json'"
+    },
+    {
+      "prompt": "Start the container setup with docker compose.",
+      "command": "docker compose up -d"
+    },
+    {
+      "prompt": "Show details of camera, screen and voice plugins.",
+      "command": "docker plugin inspect camera screen voice"
+    },
+    {
+      "prompt": "Launch the backup script inside the app folder from data container without blocking the shell.",
+      "command": "docker exec -d data /bin/bash /app/backup.sh"
+    },
+    {
+      "prompt": "Deploy a Kura container named edge with the image named kura and link kura folder in data to the store folder.",
+      "command": "docker run -v /data/kura:/store --name edge kura"
+    },
+    {
+      "prompt": "Kill the container alias python.",
+      "command": "docker kill python"
+    },
+    {
+      "prompt": "Build docker image in the current directory without using the cache.",
+      "command": "docker build --no-cache ."
+    },
+    {
+      "prompt": "Force an immediate exit the ubuntu container.",
+      "command": "docker rm -f ubuntu"
+    },
+    {
+      "prompt": "Pause centos and ubuntu containers.",
+      "command": "docker pause centos ubuntu"
+    },
+    {
+      "prompt": "Clean docker volumes which are not used.",
+      "command": "docker volume prune"
+    },
+    {
+      "prompt": "Download the distance plugin.",
+      "command": "docker plugin install distance"
+    },
+    {
+      "prompt": "Pull the kura edge image with no verbose output shown.",
+      "command": "docker pull -q eclipse/kura"
+    },
+    {
+      "prompt": "Apply a signature to telegraf image with version one point thirty five point zero.",
+      "command": "docker trust sign telegraf:1.35.0"
+    },
+    {
+      "prompt": "Package ubuntu image with latest tag into a tar file with the same name.",
+      "command": "docker save -o ubuntu.tar ubuntu:latest"
+    },
+    {
+      "prompt": "Start the container from the official ubuntu image with two gigabytes of memory and one CPU.",
+      "command": "docker run -m 2g --cpus 1 ubuntu:22.04"
+    },
+    {
+      "prompt": "Delete reporter builder instance.",
+      "command": "docker buildx rm reporter"
+    },
+    {
+      "prompt": "Reveal how the home assistant image was constructed.",
+      "command": "docker history homeassistant/home-assistant"
+    },
+    {
+      "prompt": "Set up this system as a swarm manager.",
+      "command": "docker swarm init"
+    },
+    {
+      "prompt": "Disconnect humidity container from sensor network.",
+      "command": "docker network disconnect sensor humidity"
+    },
+    {
+      "prompt": "Display the info of the secure volume.",
+      "command": "docker volume inspect secure"
+    },
+    {
+      "prompt": "Update database container with one point three gigabytes.",
+      "command": "docker update -m 1.3g database"
+    },
+    {
+      "prompt": "Halt the redis container.",
+      "command": "docker stop redis"
+    },
+    {
+      "prompt": "Display containers with their size.",
+      "command": "docker ps -s"
+    },
+    {
+      "prompt": "Run a terminal with the new container called server using the telegraf image.",
+      "command": "docker run -it --name server telegraf bash"
+    },
+    {
+      "prompt": "Upload the apache kafka image with docker content trust active.",
+      "command": "docker push --disable-content-trust=false apache/kafka"
+    },
+    {
+      "prompt": "Run the amazon linux image and map port eighty to host a web service.",
+      "command": "docker run -p 80:80 amazonlinux"
+    },
+    {
+      "prompt": "Trust and certify the home assistant image with latest tag.",
+      "command": "docker trust sign homeassistant/home-assistant:latest"
+    },
+    {
+      "prompt": "Run the official python container on an amd sixty four architecture.",
+      "command": "docker run --platform=linux/amd64 python:3.10"
+    },
+    {
+      "prompt": "Get the timescale database image for an ARM version seven platform.",
+      "command": "docker pull --platform linux/arm/v7 timescale/timescaledb"
+    },
+    {
+      "prompt": "Output docker events in json format.",
+      "command": "docker events --format 'json'"
+    },
+    {
+      "prompt": "See which images are untagged.",
+      "command": "docker images -f dangling=true"
+    },
+    {
+      "prompt": "Pull the grafana agent image and verify its signature.",
+      "command": "docker pull --disable-content-trust=false grafana/agent"
+    },
+    {
+      "prompt": "Remove the containers alias python and ubuntu.",
+      "command": "docker rm python ubuntu"
+    },
+    {
+      "prompt": "Import pipeline packaged file for a linux arm sixty four hardware.",
+      "command": "docker load --platform=linux/arm64 --input pipeline.tar"
+    },
+    {
+      "prompt": "Show containers with broker in their name and a status of running.",
+      "command": "docker ps -f name=broker -f status=running"
+    },
+    {
+      "prompt": "Print container sizes.",
+      "command": "docker ps -s"
+    },
+    {
+      "prompt": "Upload every tag of the apache server image.",
+      "command": "docker push -a httpd"
+    },
+    {
+      "prompt": "Show all containers and even the stopped ones.",
+      "command": "docker ps -a"
+    },
+    {
+      "prompt": "Display Docker images in json format.",
+      "command": "docker images --format 'json'"
+    },
+    {
+      "prompt": "Annotate the sensor manifest with one point zero version with the manager image tagged ARM version seven specifying Linux as OS, ARM as arch and version seven variant.",
+      "command": "docker manifest annotate sensor:1.0 manager:armv7 --os linux --arch arm --variant v7"
+    },
+    {
+      "prompt": "Download the curl image with signature verification.",
+      "command": "docker pull --disable-content-trust=false curlimages/curl"
+    },
+    {
+      "prompt": "Get the latest image for the dashboard service managed by docker compose.",
+      "command": "docker compose pull dashboard"
+    }, 
+    {
+      "prompt": "Load the private context via a compressed file named private.",
+      "command": "docker context import private private.zip"
+    },
+    {
+      "prompt": "Attach capture container to the staging network.",
+      "command": "docker network connect staging capture"
+    },
+    {
+      "prompt": "Free space with a build cache cleanup.",
+      "command": "docker buildx prune"
+    },
+    {
+      "prompt": "Reactivate verne and redis containers.",
+      "command": "docker unpause verne redis"
+    },
+    {
+      "prompt": "Show in a easy to read format the history of the Centos image.",
+      "command": "docker history --human centos"
+    },
+    {
+      "prompt": "Pull all service images from the compose file.",
+      "command": "docker compose pull"
+    },
+    {
+      "prompt": "Move data folder within the app directory from the sensor container without printing output.",
+      "command": "docker cp -q sensor:/app/data sensor"
+    },
+    {
+      "prompt": "Join to the running container measure and use control and y to break the connection.",
+      "command": "docker attach --detach-keys='ctrl-y' measure"
+    },
+    {
+      "prompt": "Give ubuntu container five seconds to finalize.",
+      "command": "docker stop -t 5 ubuntu"
+    },
+    {
+      "prompt": "Check how much disk space docker is using.",
+      "command": "docker system df"
+    },
+    {
+      "prompt": "Open a bash shell in the container named lora.",
+      "command": "docker exec -it lora bash"
+    },
+    {
+      "prompt": "See resource usage for every container in the system.",
+      "command": "docker stats -a"
+    },
+    {
+      "prompt": "Search for kafka images and give me just five results.",
+      "command": "docker search --limit 5 kafka"
+    },
+    {
+      "prompt": "Compile an image for linux arm version seven.",
+      "command": "docker build --platform linux/arm/v7 ."
+    },
+    {
+      "prompt": "Show containers IDs.",
+      "command": "docker ps -q"
+    },
+    {
+      "prompt": "Display sizes and dates of the official ubuntu image in a readable way.",
+      "command": "docker history --human ubuntu:22.04"
+    },
+    {
+      "prompt": "Show every docker image.",
+      "command": "docker images -a"
+    },
+    {
+      "prompt": "Display help about the use of docker command.",
+      "command": "docker"
+    },
+    {
+      "prompt": "Log in to docker using the manager username.",
+      "command": "docker login -u manager"
+    },
+    {
+      "prompt": "Review the boards manifest with two point five version.",
+      "command": "docker manifest inspect boards:2.5"
+    },
+    {
+      "prompt": "List the port mappings for the python container.",
+      "command": "docker port python"
+    },
+    {
+      "prompt": "Start a bash session on the meter container as metrics user.",
+      "command": "docker exec -u metrics -it meter bash"
+    },
+    {
+      "prompt": "Force the exit of the alpine container.",
+      "command": "docker kill alpine"
+    },
+    {
+      "prompt": "Free space by cleaning up the Docker system.",
+      "command": "docker system prune"
+    },
+    {
+      "prompt": "Tell me if the humidity container is currently active.",
+      "command": "docker inspect -f {{.State.Running}} humidity"
+    },
+    {
+      "prompt": "Launch ubuntu container with a policy that always restarts.",
+      "command": "docker run --restart=always ubuntu"
+    },
+    {
+      "prompt": "Show version information about docker in json.",
+      "command": "docker version --format 'json'"
+    },
+    {
+      "prompt": "Check the list of processes for ubuntu container.",
+      "command": "docker top ubuntu"
+    },
+    {
+      "prompt": "Export the private context in a compressed file with the same name.",
+      "command": "docker context export private private.zip"
+    },
+    {
+      "prompt": "Run the container from the official python image with one gigabyte of memory and two CPUs.",
+      "command": "docker run -m 1g --cpus 2 python:3.10"
+    },
+    {
+      "prompt": "Stop remote container in twelve seconds.",
+      "command": "docker stop -t 12 remote"
+    },
+    {
+      "prompt": "Restart the batch container with a twenty second timeout.",
+      "command": "docker restart -t 20 batch"
+    },
+    {
+      "prompt": "Switch to the sensor context.",
+      "command": "docker context use sensor"
+    },
+    {
+      "prompt": "See the logs with the timestamp for mongo container.",
+      "command": "docker logs -t mongo"
+    },
+    {
+      "prompt": "Stream live logs from the ubuntu container.",
+      "command": "docker logs -f ubuntu"
+    },
+    {
+      "prompt": "Disable vibration plugin.",
+      "command": "docker plugin disable vibration"
+    },
+    {
+      "prompt": "Enable the weather plugin.",
+      "command": "docker plugin enable weather"
+    },
+    {
+      "prompt": "Unpause a container named bus.",
+      "command": "docker unpause bus"
+    },
+    {
+      "prompt": "Delete the official ubuntu image forcibly.",
+      "command": "docker rmi -f ubuntu:22.04"
+    },
+    {
+      "prompt": "Inspect all layers of the eclipse mosquitto image.",
+      "command": "docker history eclipse-mosquitto"
+    },
+    {
+      "prompt": "Install the humidity plugin.",
+      "command": "docker plugin install humidity"
+    },
+    {
+      "prompt": "Set processor container to always restart.",
+      "command": "docker update --restart=always processor"
+    },
+    {
+      "prompt": "Open a bash shell in the lora service declared in the compose file.",
+      "command": "docker compose exec lora bash"
+    },
+    {
+      "prompt": "Convert the secure container filesystem into a packaged file.",
+      "command": "docker export -o secure.tar secure"
+    },
+    {
+      "prompt": "Point docker at the gateway context.",
+      "command": "docker context use gateway"
+    },
+    {
+      "prompt": "Build an image targeting linux arm sixty four system.",
+      "command": "docker build --platform linux/arm64 ."
+    },
+    {
+      "prompt": "Pull the curl image for risc five sixty four system.",
+      "command": "docker pull --platform linux/riscv64 curlimages/curl"
+    },
+    {
+      "prompt": "Watch mongo logs in real time.",
+      "command": "docker logs -f mongo"
+    },
+    {
+      "prompt": "Run a build of all default group IoT images.",
+      "command": "docker buildx bake"
+    },
+    {
+      "prompt": "Create a container with the official python image with two CPU and one gigabytes of memory.",
+      "command": "docker create --cpus 2 --memory 1g python:3.10"
+    }
+]

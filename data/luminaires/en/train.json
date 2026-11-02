@@ -1,0 +1,3182 @@
+[
+  {
+    "prompt": "Retrieve diagnostics and settings for luminaire two hundred and ninety nine.",
+    "command": "info 299"
+  },
+  {
+    "prompt": "Ask for current status of luminaire with ID 30.",
+    "command": "status 30"
+  },
+  {
+    "prompt": "Enable augmented security for luminaire six hundred and five.",
+    "command": "augmented_on 605"
+  },
+  {
+    "prompt": "Set the status update interval of luminaire forty three to thirty seconds.",
+    "command": "set_period 43 30"
+  },
+  {
+    "prompt": "Output the group of luminaires whose ID is eight.",
+    "command": "get_group 8"
+  },
+  {
+    "prompt": "Clear errors from luminaire twenty six.",
+    "command": "reset_errors 26"
+  },
+  {
+    "prompt": "Retrieve the luminaires service status.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Show the status of the luminaires system service.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Halt the current autonomy test running on luminaire eighty eight.",
+    "command": "stop_autonomy_test 88"
+  },
+  {
+    "prompt": "Get a system-wide report of functional tests results.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Produce a list of results from every executed test.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Show which lights are waiting to be registered.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Remove the lighting group identified as twenty three.",
+    "command": "delete_group 23"
+  },
+  {
+    "prompt": "Provide the complete results of every system test run.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Halt functionality test on luminaire whose ID number is 20.",
+    "command": "stop_functional_test 20"
+  },
+  {
+    "prompt": "Set diagnostics reporting interval to 60 seconds.",
+    "command": "set_diagnostics 60"
+  },
+  {
+    "prompt": "Switch augmented security off on luminaire nine hundred and sixty eight.",
+    "command": "augmented_off 968"
+  },
+  {
+    "prompt": "Turn emergency light on for luminaire whose ID is thirty seven.",
+    "command": "on 37"
+  },
+  {
+    "prompt": "Temporarily disable augmented security for luminaire 264 due to scheduled maintenance.",
+    "command": "augmented_off 264"
+  },
+  {
+    "prompt": "Provide a global list of luminaire IDs.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Define test quickCheck to run in 2025-05-20T07:45:00 UTC with type autonomy, no repetition, target luminaires 8,11,13 but do not activate it yet.",
+    "command": "add_test quickCheck 2025-05-20T07:45:00Z 0 autonomy false 8,11,13 ."
+  },
+  {
+    "prompt": "Turn off luminaire ten indefinitely.",
+    "command": "permanent_off 10"
+  },
+  {
+    "prompt": "Configure diagnostics to refresh every two minutes (120 seconds).",
+    "command": "set_diagnostics 120"
+  },
+  {
+    "prompt": "Switch off Bluetooth Low Energy discovery on luminaire six.",
+    "command": "disable_beacons 6"
+  },
+  {
+    "prompt": "Turn off augmented security on luminaire three hundred and seventy two.",
+    "command": "augmented_off 372"
+  },
+  {
+    "prompt": "Reset luminaire error log for luminaire sixty.",
+    "command": "reset_errors 60"
+  },
+  {
+    "prompt": "Show a summary of the addresses for all luminaires.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Edit test with ID ten and type autonomy odd, named lightCheck from 2025-07-29T12:00:00+05:00 with no repeat to change luminaires to 51-55 and activate the test immediately.",
+    "command": "update_test 10 lightCheck 2025-07-29T12:00:00+05:00 0 autonomy_odd true 51-55 . . ."
+  },
+  {
+    "prompt": "Apply the standard configuration to every sink.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Get the latest status report from luminaire 50.",
+    "command": "status 50"
+  },
+  {
+    "prompt": "Update test with ID 1024 and the type light, labeled as securityCycle and ready to run on August thirtieth twenty twenty five at ten AM local time, every five days, add luminaires 100 to 110 and remove group eight.",
+    "command": "update_test 1024 securityCycle 2025-08-30T08:00:00Z 5 light true 100-110 . . 8"
+  },
+  {
+    "prompt": "Turn on luminaire fifty seven and hold it in permanent state.",
+    "command": "permanent_on 57"
+  },
+  {
+    "prompt": "Create a new test named inspectionCheck ready to run with the light type on the twenty-second of June twenty twenty-five at eleven thirty AM UTC with no repetition targeting luminaires five through fifteen.",
+    "command": "add_test inspectionCheck 2025-06-22T11:30:00Z 0 light true 5-15 ."
+  },
+  {
+    "prompt": "Remove the fourth execution related to test ID fifteen.",
+    "command": "delete_test 15 4"
+  },
+  {
+    "prompt": "Delete every luminaire configuration from the system.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Show the test suite used for mesh validation.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Change the group ID nine named fireline to include luminaires two and four and remove none.",
+    "command": "update_group 9 fireline 2,4 ."
+  },
+  {
+    "prompt": "Return the states for every luminaire.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Eliminate information about luminaires group thirty five from records.",
+    "command": "delete_group 35"
+  },
+  {
+    "prompt": "Reinitialize the luminaire two hundred and fifty nine.",
+    "command": "reset 259"
+  },
+  {
+    "prompt": "Check which luminaires are ready to join the network.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Provide an overall provisioning status of the luminaire system.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Fetch all tests results data.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Give me the operational data on luminaire one hundred and fifty four.",
+    "command": "info 154"
+  },
+  {
+    "prompt": "List the detailed information of luminaire with the number: 247.",
+    "command": "info 247"
+  },
+  {
+    "prompt": "Restart luminaire three hundred and twenty six from the controller.",
+    "command": "reset 326"
+  },
+  {
+    "prompt": "Delete the test identified as ID 4281.",
+    "command": "delete_test 4281"
+  },
+  {
+    "prompt": "Output the runtime state of each smart light.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Check current state of luminaire ten.",
+    "command": "status 10"
+  },
+  {
+    "prompt": "Stop the luminaire functionality test on luminaire sixty three.",
+    "command": "stop_functional_test 63"
+  },
+  {
+    "prompt": "Display a left-pointing arrow on luminaire 94.",
+    "command": "set_pictogram 94 3"
+  },
+  {
+    "prompt": "Retrieve the addresses of every luminaire in the system.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Turn off dynamic brightness regulation for luminaire 4.",
+    "command": "dbr_off 4"
+  },
+  {
+    "prompt": "Retrieve the diagnostics test results currently stored.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Return the device group identified as one hundred and eleven.",
+    "command": "get_group 111"
+  },
+  {
+    "prompt": "Export the multicast group inventory.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Configure luminaire nine to send status every one hundred and twenty seconds.",
+    "command": "set_period 9 120"
+  },
+  {
+    "prompt": "Remove error flags from luminaire 97.",
+    "command": "reset_errors 97"
+  },
+  {
+    "prompt": "End this program CLI.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Provide the full profile of luminaire three hundred and sixty five.",
+    "command": "info 365"
+  },
+  {
+    "prompt": "Retrieve the list of all tests available in the system.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Displays the states of the entire luminaire system.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Stop Bluetooth broadcasting from luminaire thirty one.",
+    "command": "disable_beacons 31"
+  },
+  {
+    "prompt": "Initialize default sink configuration.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Cancel current functional test for luminaire eleven.",
+    "command": "stop_functional_test 11"
+  },
+  {
+    "prompt": "List sinks information entries system-wide.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "List every luminaire address present in the system.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Deactivate DBR for luminaire 76.",
+    "command": "dbr_off 76"
+  },
+  {
+    "prompt": "Get data from the screen test numbered 119.",
+    "command": "get_test 119"
+  },
+  {
+    "prompt": "Clear all error logs from luminaire 34.",
+    "command": "reset_errors 34"
+  },
+  {
+    "prompt": "I would like to get help with the command that reset mesh graphs.",
+    "command": "help reset_mesh"
+  },
+  {
+    "prompt": "Reboot luminaire 192 to clear faults.",
+    "command": "reset 192"
+  },
+  {
+    "prompt": "Disable automatic diagnostics updates.",
+    "command": "set_diagnostics 0"
+  },
+  {
+    "prompt": "Enable diagnostics reporting every three hundred seconds.",
+    "command": "set_diagnostics 300"
+  },
+  {
+    "prompt": "Give me the provisioning state of each smart luminaire.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Present the results of all completed luminaires tests.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Remove multicast group eighteen identified as such.",
+    "command": "delete_group 18"
+  },
+  {
+    "prompt": "Stop emergency light for luminaire nine hundred and eleven.",
+    "command": "off 911"
+  },
+  {
+    "prompt": "Disable functional testing in luminaire thirty three.",
+    "command": "stop_functional_test 33"
+  },
+  {
+    "prompt": "Let all luminaires connect to the mesh.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Turn off Bluetooth discovery signal on luminaire fourteen.",
+    "command": "disable_beacons 14"
+  },
+  {
+    "prompt": "I would like to know the info to permanently turn off a luminaire.",
+    "command": "help set_permanent_off"
+  },
+  {
+    "prompt": "Turn off augmented security for luminaire two hundred and seventeen.",
+    "command": "augmented_off 217"
+  },
+  {
+    "prompt": "Update the test with ID 103, of type autonomy, identified as nightRoutine scheduled for 2025-06-20T22:00:00+09:00 to repeat every seven days and enabled the test immediately, adding luminaires one to ten and removing luminaire eleven, no changes in groups.",
+    "command": "update_test 103 nightRoutine 2025-06-20T22:00:00+09:00 7 autonomy true 1-10 12 . ."
+  },
+  {
+    "prompt": "Check the diagnostics status.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Create the recurring test hallwayLight to start on 2025-07-10 at 06:00 UTC with a period of 10 days with the ligth type and keep the test activated, on group one.",
+    "command": "add_test hallwayLight 2025-07-10T06:00:00Z 10 light true . 1"
+  },
+  {
+    "prompt": "Enable provisioning on the controller for new devices.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Turn emergency mode off on luminaire 676.",
+    "command": "off 676"
+  },
+  {
+    "prompt": "Revise the test named oddRun and ID: 435 with the autonomy odd type for October twenty-fifth, twenty twenty-seven at three PM UTC to run every 10 days and no luminaires changed but remove group six, without enabling the test.",
+    "command": "update_test 435 oddRun 2027-10-25T15:00:00Z 10 autonomy_odd false . . . 6"
+  },
+  {
+    "prompt": "End autonomy test mode for luminaire sixty six.",
+    "command": "stop_autonomy_test 66"
+  },
+  {
+    "prompt": "Turn on augmented security for luminaire one hundred and fifty nine.",
+    "command": "augmented_on 159"
+  },
+  {
+    "prompt": "Add luminaire ID thirty seven as a new device.",
+    "command": "add_luminaire 37"
+  },
+  {
+    "prompt": "Update group number three named corridor by adding luminaires one through five and removing luminaires ten and twelve.",
+    "command": "update_group 3 corridor 1-5 10,12"
+  },
+  {
+    "prompt": "Remove test seventy one, instance number four.",
+    "command": "delete_test 71 4"
+  },
+  {
+    "prompt": "Close this shell interface.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Activate emergency light on luminaire identified as three hundred and seven.",
+    "command": "on 307"
+  },
+  {
+    "prompt": "Enable second output for control module one hundred.",
+    "command": "set_gpio_output 100 10"
+  },
+  {
+    "prompt": "Show me each luminaire provisioning status record.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Adjust diagnostics interval to once every thirty seconds.",
+    "command": "set_diagnostics 30"
+  },
+  {
+    "prompt": "Remove instance four of the test identified by number 50.",
+    "command": "delete_test 50 4"
+  },
+  {
+    "prompt": "Turn luminaire 69 permanently off.",
+    "command": "permanent_off 69"
+  },
+  {
+    "prompt": "Switch augmented security on for luminaire eighty six.",
+    "command": "augmented_on 86"
+  },
+  {
+    "prompt": "Activate provisioning in luminaires.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Clear the routing map cache.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Display the device identifiers for every luminaire configured in the network.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Display the luminaires service state.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Activate only the second GPIO pin on device with serial 888222.",
+    "command": "set_gpio_output 888222 10"
+  },
+  {
+    "prompt": "Perform a full mesh graph reset for lighting fixtures.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Get the status of the diagnostics.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Show me a connectivity map of the lighting system.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Activate augmented security on luminaire with ID: 44.",
+    "command": "augmented_on 44"
+  },
+  {
+    "prompt": "Generate a complete list of luminaire address.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Fetch configuration info for luminaire one hundred and thirty five.",
+    "command": "info 135"
+  },
+  {
+    "prompt": "Abort autonomy test on luminaire five.",
+    "command": "stop_autonomy_test 5"
+  },
+  {
+    "prompt": "Set DBR to on for luminaire with number 1008.",
+    "command": "dbr_on 1008"
+  },
+  {
+    "prompt": "Block in the mesh to dynamically add more luminaires.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Retrieve the connectivity map of the entire lighting mesh.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Show luminaire info for identifier three hundred and fourteen.",
+    "command": "info 314"
+  },
+  {
+    "prompt": "Cancel the active functional test for luminaire seven.",
+    "command": "stop_functional_test 7"
+  },
+  {
+    "prompt": "Get luminaire info for the device whose ID is seventeen.",
+    "command": "info 17"
+  },
+  {
+    "prompt": "Deactivate DBR to off on luminaire three hundred and thirty three.",
+    "command": "dbr_off 333"
+  },
+  {
+    "prompt": "Keep luminaire twenty three off until further notice.",
+    "command": "permanent_off 23"
+  },
+  {
+    "prompt": "Clear the test record marked with ID one hundred and ninety nine.",
+    "command": "delete_test 199"
+  },
+  {
+    "prompt": "Configure sink settings for joining the luminaire mesh.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Disable wireless beacon broadcasting on luminaire thirty five.",
+    "command": "disable_beacons 35"
+  },
+  {
+    "prompt": "Retrieve sink device properties across the network.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Delete and recreate the mesh graph for luminaires.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Erase luminaire one thousand one hundred and five.",
+    "command": "delete_luminaire 1105"
+  },
+  {
+    "prompt": "Display test results without applying any filters.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Stop the autonomy test on luminaire seventy five.",
+    "command": "stop_autonomy_test 75"
+  },
+  {
+    "prompt": "Set augmented security off for luminaire five hundred and two.",
+    "command": "augmented_off 502"
+  },
+  {
+    "prompt": "Output the mesh graph that maps the links of each luminaire.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Form the network group named actuator with luminaires 4, 18 and 33.",
+    "command": "add_group actuator 4,18,33"
+  },
+  {
+    "prompt": "Show diagnostics of the test registered as ID twenty nine.",
+    "command": "get_test 29"
+  },
+  {
+    "prompt": "Enable luminaire sixty three to report status every thirty seconds.",
+    "command": "set_period 63 30"
+  },
+  {
+    "prompt": "Switch off emergency light for luminaire with the number ID twenty nine.",
+    "command": "off 29"
+  },
+  {
+    "prompt": "Add luminaires 70, 71, and 75 to a new multicast group called upperdeck.",
+    "command": "add_group upperdeck 70,71,75"
+  },
+  {
+    "prompt": "Output the list of tests ready for execution.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Give me a list with the device identifier of all connected luminaires.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Return the network topology graph of all system.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Increase the display brightness of luminaire sixty seven to eighty percent.",
+    "command": "set_brightness 67 80"
+  },
+  {
+    "prompt": "Eliminate the hardware test registered under ID eighty seven.",
+    "command": "delete_test 87"
+  },
+  {
+    "prompt": "Completely empty the luminaire registry.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "List every test that can be executed on luminaires.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Delete the luminaire whose ID is thirteen from the system.",
+    "command": "delete_luminaire 13"
+  },
+  {
+    "prompt": "Generate a complete list of multicast groups for luminaires.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Set the status period of luminaire eight to one minute.",
+    "command": "set_period 8 60"
+  },
+  {
+    "prompt": "Disable augmented security on luminaire ninety three.",
+    "command": "augmented_off 93"
+  },
+  {
+    "prompt": "Set the display luminosity of luminaire nine to thirty percent out of one hundred.",
+    "command": "set_brightness 9 30"
+  },
+  {
+    "prompt": "Get the current status for luminaire eight.",
+    "command": "status 8"
+  },
+  {
+    "prompt": "Deactivate emergency mode on luminaire identified as sixty two.",
+    "command": "off 62"
+  },
+  {
+    "prompt": "Prevent luminaire seventy nine from sending Bluetooth signals.",
+    "command": "disable_beacons 79"
+  },
+  {
+    "prompt": "Activate the arrow pointing left on luminaire forty four.",
+    "command": "set_pictogram 44 3"
+  },
+  {
+    "prompt": "Retrieve instance four for test twelve.",
+    "command": "get_test_instance 12 4"
+  },
+  {
+    "prompt": "Set the second GPIO channel to active for controller twelve.",
+    "command": "set_gpio_output 12 10"
+  },
+  {
+    "prompt": "Remove the test that corresponds to ID 320.",
+    "command": "delete_test 320"
+  },
+  {
+    "prompt": "Fetch detailed luminaire data for device five hundred and fifty five.",
+    "command": "info 555"
+  },
+  {
+    "prompt": "Reset the luminaire with ID one hundred and nineteen.",
+    "command": "reset 119"
+  },
+  {
+    "prompt": "Launch a mid-range autonomy test for luminaire 27, two hundred seconds long.",
+    "command": "start_autonomy_test 27 200"
+  },
+  {
+    "prompt": "Disable augmented security for luminaire 26.",
+    "command": "augmented_off 26"
+  },
+  {
+    "prompt": "Group luminaires from five to fifteen and luminaire twenty one into a multicast group named monitor.",
+    "command": "add_group monitor 5-15,21"
+  },
+  {
+    "prompt": "Purge luminaires and their associated data in one action.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Provide the state report for every luminaire.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Clear the luminaire inventory by purging it completely.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Activate augmented security on luminaire five hundred and twelve.",
+    "command": "augmented_on 512"
+  },
+  {
+    "prompt": "Retrieve the current state of every luminaire in the system.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Restore the mesh graph to a clean slate.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Request diagnostics and status from luminaire sixty six.",
+    "command": "status 66"
+  },
+  {
+    "prompt": "Start autonomy test with a duration of ten minutes on luminaire twenty five.",
+    "command": "start_autonomy_test 25 600"
+  },
+  {
+    "prompt": "Find out which devices are in provisioning mode.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "List tests results entries across the network.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Prevent new luminaires from being added.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Show me each sink configuration and status.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Show an upward arrow on the TFT screen of luminaire eighty.",
+    "command": "set_pictogram 80 0"
+  },
+  {
+    "prompt": "Disable luminaire forty seven completely and indefinitely.",
+    "command": "permanent_off 47"
+  },
+  {
+    "prompt": "Form a multicast group called mainfloor including luminaires three, seven and nine.",
+    "command": "add_group mainfloor 3,7,9"
+  },
+  {
+    "prompt": "Return the results table for the luminaire tests.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Disable the energy-saving DBR for luminaire one thousand and thirty.",
+    "command": "dbr_off 1030"
+  },
+  {
+    "prompt": "Exit, please.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Force luminaire ninety one into permanent on state.",
+    "command": "permanent_on 91"
+  },
+  {
+    "prompt": "Pull status from luminaire ninety one.",
+    "command": "status 91"
+  },
+  {
+    "prompt": "Set a low screen brightness of thirty percent for luminaire 5.",
+    "command": "set_brightness 5 30"
+  },
+  {
+    "prompt": "Show me the group with the number ID two.",
+    "command": "get_group 2"
+  },
+  {
+    "prompt": "Enable BLE beacon on luminaire six.",
+    "command": "enable_beacons 6"
+  },
+  {
+    "prompt": "Append a new for luminaire ID: 74.",
+    "command": "add_luminaire 74"
+  },
+  {
+    "prompt": "Fetch details for luminaires group four.",
+    "command": "get_group 4"
+  },
+  {
+    "prompt": "Show which luminaires can be discovered and added.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Reset system faults in luminaire twenty two.",
+    "command": "reset_errors 22"
+  },
+  {
+    "prompt": "Displays the network topology of the entire luminaire system.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Clear reported faults for luminaire eight.",
+    "command": "reset_errors 8"
+  },
+  {
+    "prompt": "Set the diagnostics status to refresh automatically every ten minutes (six hundred seconds).",
+    "command": "set_diagnostics 600"
+  },
+  {
+    "prompt": "Display the full command list.",
+    "command": "help"
+  },
+  {
+    "prompt": "Switch on the DBR functionality on luminaire ninety one.",
+    "command": "dbr_on 91"
+  },
+  {
+    "prompt": "Set the second GPIO output active on unit seventy five.",
+    "command": "set_gpio_output 75 10"
+  },
+  {
+    "prompt": "Disable all outputs on controller with ID 300200.",
+    "command": "set_gpio_output 300200 00"
+  },
+  {
+    "prompt": "Delete luminaire five hundred and nine from the system.",
+    "command": "delete_luminaire 509"
+  },
+  {
+    "prompt": "Enable emergency light for luminaire one hundred and twenty six.",
+    "command": "on 126"
+  },
+  {
+    "prompt": "Adjust inspectionRun test whose ID is one hundred and five and the type autonomy and no repetition to scheduled July 5 2027 at noon in local time and remove luminaire twenty two, no group changes and keep the test disabled.",
+    "command": "update_test 105 inspectionRun 2027-07-05T12:00:00Z 0 autonomy false . 22 . ."
+  },
+  {
+    "prompt": "Activate augmented security for luminaire eight hundred and ninety nine.",
+    "command": "augmented_on 899"
+  },
+  {
+    "prompt": "How do I see the manual guide of how often a luminaire updates its status?",
+    "command": "help set_period"
+  },
+  {
+    "prompt": "Allow new devices to be added to the system.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Return test results from the internal memory test with ID 189.",
+    "command": "get_test 189"
+  },
+  {
+    "prompt": "Configure the TFT of luminaire twenty two to show a right arrow.",
+    "command": "set_pictogram 22 2"
+  },
+  {
+    "prompt": "Reset the connectivity graph of all luminaires.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "List the list of broadcast groups for all luminaires.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Delete multicast group 43 permanently.",
+    "command": "delete_group 43"
+  },
+  {
+    "prompt": "Present a list of all configured luminaires tests.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Cancel current autonomy test for luminaire 69.",
+    "command": "stop_autonomy_test 69"
+  },
+  {
+    "prompt": "Start a functional test lasting sixty seconds on luminaire 12.",
+    "command": "start_functional_test 12 60"
+  },
+  {
+    "prompt": "How can I help to make a luminaire stay on permanently?",
+    "command": "help permanent_on"
+  },
+  {
+    "prompt": "Perform a one minute (60 seconds) light funcionality test on luminaire eighty three.",
+    "command": "start_functional_test 83 60"
+  },
+  {
+    "prompt": "Allow luminaire ninety five to broadcast its Bluetooth signal.",
+    "command": "enable_beacons 95"
+  },
+  {
+    "prompt": "Show the sinks data used for communication routing.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Completely purge the list of luminaires.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Provide the routing map for all smart lights.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Turn the augmented security off for luminaire four.",
+    "command": "augmented_off 4"
+  },
+  {
+    "prompt": "Set luminaire eighty eight to permanent off status.",
+    "command": "permanent_off 88"
+  },
+  {
+    "prompt": "Set luminaire 76 to stay on permanently.",
+    "command": "permanent_on 76"
+  },
+  {
+    "prompt": "Activate Bluetooth signal broadcasting on luminaire twenty one.",
+    "command": "enable_beacons 21"
+  },
+  {
+    "prompt": "Switch luminaire with the number 735 to emergency off.",
+    "command": "off 735"
+  },
+  {
+    "prompt": "Reset fault indicators on luminaire eighty nine.",
+    "command": "reset_errors 89"
+  },
+  {
+    "prompt": "Stop allowing new luminaires to join the network.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Start a functionality test on luminaire 65 lasting ten minutes.",
+    "command": "start_functional_test 65 600"
+  },
+  {
+    "prompt": "Clear the luminaire list down to zero.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Clear and rebuild the luminaire mesh graph from scratch.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Configure luminaire sixty to send updates every half hour.",
+    "command": "set_period 60 1800"
+  },
+  {
+    "prompt": "Add a new luminaire with ID three hundred and ten into the network.",
+    "command": "add_luminaire 310"
+  },
+  {
+    "prompt": "Stop self-testing for autonomy on luminaire forty seven.",
+    "command": "stop_autonomy_test 47"
+  },
+  {
+    "prompt": "Fetch a list of multicast groups currently defined.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Provide a list of provisioning-enabled devices.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Display the node graph of each lamp in the network.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Give me a list of the luminaire groups.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Quit the program., please",
+    "command": "exit"
+  },
+  {
+    "prompt": "Show me group 907.",
+    "command": "get_group 907"
+  },
+  {
+    "prompt": "Deactivate the emergency mode of luminaire eight hundred and twenty two.",
+    "command": "off 822"
+  },
+  {
+    "prompt": "Reinitialize the routing map.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Retrieve the diagnostics status.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Retrieve the second occurrence of test seventy five.",
+    "command": "get_test_instance 75 2"
+  },
+  {
+    "prompt": "Print a list of every available command.",
+    "command": "help"
+  },
+  {
+    "prompt": "Activate output one on GPIO device twenty.",
+    "command": "set_gpio_output 20 01"
+  },
+  {
+    "prompt": "I need assistance for checking if a luminaire has any incidents.",
+    "command": "help status_incident"
+  },
+  {
+    "prompt": "Prepare sinks with standard operating values.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Give me the command help menu.",
+    "command": "help"
+  },
+  {
+    "prompt": "Remove all registered luminaires from the network.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Prevent luminaire seventy six from sending Bluetooth signals.",
+    "command": "disable_beacons 76"
+  },
+  {
+    "prompt": "Delete the fifth instance of test with ID 20.",
+    "command": "delete_test 20 5"
+  },
+  {
+    "prompt": "Change the group fifteen insideZone by excluding luminaires 33 and 36.",
+    "command": "update_group 15 insideZone . 33,36"
+  },
+  {
+    "prompt": "Trigger the functional test on luminaire twenty with a length of ninety seconds.",
+    "command": "start_functional_test 20 90"
+  },
+  {
+    "prompt": "Purge the luminaires from the system.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Remove group with ID number thirty six.",
+    "command": "delete_group 36"
+  },
+  {
+    "prompt": "Remove luminaire whose ID is one thousand two hundred and fifty six.",
+    "command": "delete_luminaire 1256"
+  },
+  {
+    "prompt": "Fetch the current interconnection layout of luminaires.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Enable augmented security for luminaire seven.",
+    "command": "augmented_on 7"
+  },
+  {
+    "prompt": "Allow installers to add new luminaires.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Perform a hard reset on luminaire identified as forty five.",
+    "command": "reset 45"
+  },
+  {
+    "prompt": "Send stop command for functional test to luminaire sixty seven.",
+    "command": "stop_functional_test 67"
+  },
+  {
+    "prompt": "Enable DBR for luminaire two hundred and seventy nine.",
+    "command": "dbr_on 279"
+  },
+  {
+    "prompt": "Deactivate system provisioning.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Provide the outcome of test labeled ID three hundred and sixty five.",
+    "command": "get_test 365"
+  },
+  {
+    "prompt": "What is the command that help how can I lists legacy integration entries?",
+    "command": "help get_integrations"
+  },
+  {
+    "prompt": "Block new lighting units from joining.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Turn on the first GPIO output for unit three hundred and one.",
+    "command": "set_gpio_output 301 01"
+  },
+  {
+    "prompt": "Set up an autonomy test for luminaire twenty two with a test length of two minutes.",
+    "command": "start_autonomy_test 22 120"
+  },
+  {
+    "prompt": "Reset luminaire two hundred and eighteen for maintenance.",
+    "command": "reset 218"
+  },
+  {
+    "prompt": "Initiate a three-minute light system verification test for luminaire sixty eight.",
+    "command": "start_functional_test 68 180"
+  },
+  {
+    "prompt": "Show the full catalogue of groups definitions for smart lights.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "What is the diagnostics status?",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Delete instance one of the test ID 39.",
+    "command": "delete_test 39 1"
+  },
+  {
+    "prompt": "Adjust test with ID seven, of type autonomy and named exitCheck scheduled for 2025-10-10 at 23:00 UTC, repeat every fifteen days, remove groups four and six without enabling the test.",
+    "command": "update_test 7 exitCheck 2025-10-10T23:00:00Z 15 autonomy false . . . 4,6"
+  },
+  {
+    "prompt": "Provide an overall summary of system tests.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Turn on augmented security for luminaire four hundred and eighty eight.",
+    "command": "augmented_on 488"
+  },
+  {
+    "prompt": "Trigger only the first relay output on board ID 44.",
+    "command": "set_gpio_output 44 01"
+  },
+  {
+    "prompt": "Turn on DBR for luminaire with ID: 140.",
+    "command": "dbr_on 140"
+  },
+  {
+    "prompt": "Provide all luminaire groups present in the mesh.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Erase luminaire identified as six hundred and two from all records.",
+    "command": "delete_luminaire 602"
+  },
+  {
+    "prompt": "Turn on automatic dimming feature for luminaire sixty two.",
+    "command": "dbr_on 62"
+  },
+  {
+    "prompt": "Retrieve the list of tests for each available test.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Delete the group of luminaires identified as six.",
+    "command": "delete_group 6"
+  },
+  {
+    "prompt": "Register a new group called streetlights for luminaires one through ten and luminaria fifteen.",
+    "command": "add_group streetlights 1-10,15"
+  },
+  {
+    "prompt": "Ask luminaire thirty nine for its status.",
+    "command": "status 39"
+  },
+  {
+    "prompt": "Change diagnostic status update frequency to every 3 minutes (one hundred and eighty seconds).",
+    "command": "set_diagnostics 180"
+  },
+  {
+    "prompt": "Close provisioning so no new luminaires can join.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Show me the help command that disables a luminaire for good.",
+    "command": "help set_permanent_off"
+  },
+  {
+    "prompt": "Modify group eight named warehouse by including luminaires 30 to 35 and excluding 31.",
+    "command": "update_group 8 warehouse 30-35 31"
+  },
+  {
+    "prompt": "Perform a one minute autonomy test on luminaire 81.",
+    "command": "start_autonomy_test 81 60"
+  },
+  {
+    "prompt": "Delete the device listed as luminaire 903.",
+    "command": "delete_luminaire 903"
+  },
+  {
+    "prompt": "Modify group seventeen named upperdeck to remove luminaires from 70 to 74.",
+    "command": "update_group 17 upperdeck . 70-74"
+  },
+  {
+    "prompt": "Display an overview of available commands.",
+    "command": "help"
+  },
+  {
+    "prompt": "Assign a sixty second reporting interval to luminaire seventeen.",
+    "command": "set_period 17 60"
+  },
+  {
+    "prompt": "Activate the Bluetooth discovery feature on luminaire thirty nine.",
+    "command": "enable_beacons 39"
+  },
+  {
+    "prompt": "Display the directional arrow pointing downward on luminaire one hundred and one.",
+    "command": "set_pictogram 101 1"
+  },
+  {
+    "prompt": "Retrieve the current state of luminaire ninety four.",
+    "command": "status 94"
+  },
+  {
+    "prompt": "Initiate a full five-minute functional test on luminaire thirty three.",
+    "command": "start_functional_test 33 300"
+  },
+  {
+    "prompt": "Execute an autonomy test on luminaire sixty two lasting five minutes.",
+    "command": "start_autonomy_test 62 300"
+  },
+  {
+    "prompt": "Fetch results of the GPIO test labeled with ID four thousand and sixty.",
+    "command": "get_test 4060"
+  },
+  {
+    "prompt": "Return the identifiers for all recognised luminaires.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Launch a test called safetyScan set to begin on August fifth and autonomy odd type, twenty twenty-five, at 14:15 UTC, with no repeat targeting luminaires 23 to 27 and group 11-13, but do not activate it yet.",
+    "command": "add_test safetyScan 2025-08-05T14:15:00Z 0 autonomy_odd false 23-27 11-13"
+  },
+  {
+    "prompt": "Remove luminaire eight hundred and forty five from system.",
+    "command": "delete_luminaire 845"
+  },
+  {
+    "prompt": "Delete luminaire identified as 1388.",
+    "command": "delete_luminaire 1388"
+  },
+  {
+    "prompt": "Draw up the status list for each luminaire.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Set luminaire seventy one to be constantly active.",
+    "command": "permanent_on 71"
+  },
+  {
+    "prompt": "Query the luminaires service status.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Get broadcast group twenty four for inspection.",
+    "command": "get_group 24"
+  },
+  {
+    "prompt": "Get a system-wide overview of tests.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Configure test safetyInspection to run on 2025-07-01T06:00:00Z with the light type, repeat every 14 days without enabling the test yet, only for luminarie ten and fifteen and groups 3 and 4.",
+    "command": "add_test safetyInspection 2025-07-01T06:00:00Z 14 light false 10,15 3,4"
+  },
+  {
+    "prompt": "I want to know the manual guide of the command getting a multicast groups.",
+    "command": "help get_groups"
+  },
+  {
+    "prompt": "Set up a lighting group called garage with luminaires from ID 210 to 215.",
+    "command": "add_group garage 210-215"
+  },
+  {
+    "prompt": "Eliminate group 60 from the system.",
+    "command": "delete_group 60"
+  },
+  {
+    "prompt": "Disable provisioning in the system.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Adjust the screen luminosity of luminaire eighty eight to fifty percent of its total.",
+    "command": "set_brightness 88 50"
+  },
+  {
+    "prompt": "Activate dynamic brightness regulation for luminaire six hundred and fifty.",
+    "command": "dbr_on 650"
+  },
+  {
+    "prompt": "Schedule a six minutes (360 seconds) basic operation test for luminaire seventy two.",
+    "command": "start_functional_test 72 360"
+  },
+  {
+    "prompt": "Halt autonomy evaluation test on luminaire ninety seven.",
+    "command": "stop_autonomy_test 97"
+  },
+  {
+    "prompt": "Update diagnostics configuration to refresh every thirty seconds.",
+    "command": "set_diagnostics 30"
+  },
+  {
+    "prompt": "Set the augmented security mode to ON for luminaire 120 during the night cycle.",
+    "command": "augmented_on 120"
+  },
+  {
+    "prompt": "Show me the communication test details with ID one.",
+    "command": "get_test 1"
+  },
+  {
+    "prompt": "Get test instance two for test ID 44.",
+    "command": "get_test_instance 44 2"
+  },
+  {
+    "prompt": "Execute a full reset on luminaire one hundred and seven.",
+    "command": "reset 107"
+  },
+  {
+    "prompt": "Turn on Bluetooth beacon mode on luminaire fifteen.",
+    "command": "enable_beacons 15"
+  },
+  {
+    "prompt": "Delete all data related to test ID two thousand and eight.",
+    "command": "delete_test 2008"
+  },
+  {
+    "prompt": "Return instance three of test with ID 90.",
+    "command": "get_test_instance 90 3"
+  },
+  {
+    "prompt": "Report the current diagnostics status.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Show me the most recent test result for each luminaire.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Enable automatic low consumption mode on luminaire four hundred and seventy seven.",
+    "command": "dbr_on 477"
+  },
+  {
+    "prompt": "Turn off scheduled diagnostics updates.",
+    "command": "set_diagnostics 0"
+  },
+  {
+    "prompt": "Provide an interconnection layout of the luminaire mesh.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Initiate a 30 seconds autonomy test on luminaire four.",
+    "command": "start_autonomy_test 4 30"
+  },
+  {
+    "prompt": "Change the test with ID three of type autonomy_even, named autonomy_even test earlyMorning planned for August twelfth twenty twenty five at six AM local time and mark the test as enabled, with period of ten days and add luminaires five, ten and twelve and remove group three.",
+    "command": "update_test 3 earlyMorning 2025-08-12T06:00:00Z 10 autonomy_even true 5,10,12 . . 3"
+  },
+  {
+    "prompt": "Retrieve the first execution of test ID twenty four.",
+    "command": "get_test_instance 24 1"
+  },
+  {
+    "prompt": "Access the third execution under test ID 11.",
+    "command": "get_test_instance 11 3"
+  },
+  {
+    "prompt": "Retrieve test instance one for ID 31.",
+    "command": "get_test_instance 31 1"
+  },
+  {
+    "prompt": "Activate emergency mode for luminaire 443.",
+    "command": "on 443"
+  },
+  {
+    "prompt": "Provide an overall sinks info summary.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Retrieve luminaire information on the unit with the number ID forty two.",
+    "command": "info 42"
+  },
+  {
+    "prompt": "Start the autonomy test on luminaire seven with a duration of sixty seconds.",
+    "command": "start_autonomy_test 7 60"
+  },
+  {
+    "prompt": "Retrieve the diagnostics from the battery test identified as ID 321.",
+    "command": "get_test 321"
+  },
+  {
+    "prompt": "Get data from test labeled with ID fifteen.",
+    "command": "get_test 15"
+  },
+  {
+    "prompt": "Set up the northwing group including luminaires with IDs one hundred fifty-one to one hundred and sixty.",
+    "command": "add_group northwing 151-160"
+  },
+  {
+    "prompt": "Start over the luminaire two hundred and thirty four.",
+    "command": "reset 234"
+  },
+  {
+    "prompt": "Retrieve information on the luminaires group sixteen.",
+    "command": "get_group 16"
+  },
+  {
+    "prompt": "Present the states of all luminaires.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Turn off new device joining.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Enable emergency mode for luminaire six hundred and eighty one.",
+    "command": "on 681"
+  },
+  {
+    "prompt": "Stop emergency light on luminaire identified as 341.",
+    "command": "off 341"
+  },
+  {
+    "prompt": "Let new devices connect to the lighting network.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Apply a brightness level of twenty percent on the screen of luminaire twelve.",
+    "command": "set_brightness 12 20"
+  },
+  {
+    "prompt": "Produce the identifiers of all luminaires.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Purge test four hundred and seventy eight from the test log.",
+    "command": "delete_test 478"
+  },
+  {
+    "prompt": "Quit to the operating system.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Activate wireless beaconing for luminaire eighty one.",
+    "command": "enable_beacons 81"
+  },
+  {
+    "prompt": "Insert luminaire two hundred and seventy into the lighting system.",
+    "command": "add_luminaire 270"
+  },
+  {
+    "prompt": "Switch augmented security on for luminaire with ID 689.",
+    "command": "augmented_on 689"
+  },
+  {
+    "prompt": "Set luminaire 10 to push updates every 10 seconds.",
+    "command": "set_period 10 10"
+  },
+  {
+    "prompt": "Delete the lighting group seventy seven.",
+    "command": "delete_group 77"
+  },
+  {
+    "prompt": "Display the current sinks overview for the entire system.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Send a reset on luminaire three hundred and forty seven.",
+    "command": "reset 347"
+  },
+  {
+    "prompt": "Stop the automatic brightness control for luminaire one hundred and eighty two.",
+    "command": "dbr_off 182"
+  },
+  {
+    "prompt": "Execute a full cycle functionality test of nine hundred seconds on luminaire forty six.",
+    "command": "start_functional_test 46 900"
+  },
+  {
+    "prompt": "Turn luminaire 27 on indefinitely.",
+    "command": "permanent_on 27"
+  },
+  {
+    "prompt": "Display the list of tests without any filters applied.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Return the sinks information.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Enable permanent lighting for luminaire ninety five.",
+    "command": "permanent_on 95"
+  },
+  {
+    "prompt": "Turn on the BLE advertising mode for luminaire fifty four.",
+    "command": "enable_beacons 54"
+  },
+  {
+    "prompt": "Cancel the active autonomy test for luminaire seventeen.",
+    "command": "stop_autonomy_test 17"
+  },
+  {
+    "prompt": "Give me the luminaire info on unit six hundred and nineteen.",
+    "command": "info 619"
+  },
+  {
+    "prompt": "Trash every luminaire record permanently.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "List the latest results from all diagnostic tests.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "List of integrated commands.",
+    "command": "help"
+  },
+  {
+    "prompt": "Register luminaires 39 to 42 into a group named scheduled.",
+    "command": "add_group scheduled 39-42"
+  },
+  {
+    "prompt": "Turn on augmented security for luminaire three hundred and forty two according to the programme today.",
+    "command": "augmented_on 342"
+  },
+  {
+    "prompt": "Erase the current mesh links and rebuild automatically.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Wipe out the third test execution under ID 11.",
+    "command": "delete_test 11 3"
+  },
+  {
+    "prompt": "Turn emergency mode on for luminaire eight hundred and forty seven.",
+    "command": "on 847"
+  },
+  {
+    "prompt": "Provide the diagnostics status.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Set a test named checkupNight ready to run on 2025-06-21T23:00:00+05:00 with no repetition and the type light, for groups one and three.",
+    "command": "add_test checkupNight 2025-06-21T23:00:00+05:00 0 light true . 1,3"
+  },
+  {
+    "prompt": "Modify test safetyCheck with ID 24 and type light to start on July first, twenty twenty-five at half past eight AM UTC, once only, update luminaires twenty one to twenty five and add to groups three and five, leaving the test enabled.",
+    "command": "update_test 24 safetyCheck 2025-07-01T08:30:00Z 0 light true 21-25 . 3,5 ."
+  },
+  {
+    "prompt": "Disable permanent state on luminaire thirteen.",
+    "command": "permanent_off 13"
+  },
+  {
+    "prompt": "Show me every groups defined in the lighting system.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Edit the test summerRun whose ID number is fourty and type of autonomy odd with scheduled for 2026-09-10T07:15:00Z without repetition and remove luminaires 15 and 16, no other updates but do not activate it yet.",
+    "command": "update_test 40 summerRun 2026-09-10T07:15:00Z 0 autonomy_odd false . 15,16 . ."
+  },
+  {
+    "prompt": "Add a new device group called parking for luminaires seventeen through nineteen.",
+    "command": "add_group parking 17-19"
+  },
+  {
+    "prompt": "Interrupt the autonomy test running on luminaire ten.",
+    "command": "stop_autonomy_test 10"
+  },
+  {
+    "prompt": "Delete the test with ID 60 and instance number five.",
+    "command": "delete_test 60 5"
+  },
+  {
+    "prompt": "Shut down the shell.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Purge luminaires to start fresh.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Obtain the states of all luminaires.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Enable provisioning mode on the system.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Deactivate luminaire ninety seven in permanent mode.",
+    "command": "permanent_off 97"
+  },
+  {
+    "prompt": "Interrupt the test of luminaire functionality on device fifty four.",
+    "command": "stop_functional_test 54"
+  },
+  {
+    "prompt": "Delete device group ninety nine.",
+    "command": "delete_group 99"
+  },
+  {
+    "prompt": "Remove luminaire fifty eight from the luminaire network.",
+    "command": "delete_luminaire 58"
+  },
+  {
+    "prompt": "Set emergency mode to off for luminaire one hundred and thirty three.",
+    "command": "off 133"
+  },
+  {
+    "prompt": "Query operational data from luminaire seventy.",
+    "command": "status 70"
+  },
+  {
+    "prompt": "Change the group with ID thirteen called maintenance to add luminaires five to nine and eleven and remove eight.",
+    "command": "update_group 13 maintenance 5-9,11 8"
+  },
+  {
+    "prompt": "Override augmented security for luminaire 670 temporarily.",
+    "command": "augmented_off 670"
+  },
+  {
+    "prompt": "Output the provisioning status of all smart luminaires.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Delete the battery test assigned to ID three thousand four hundred and ten.",
+    "command": "delete_test 3410"
+  },
+  {
+    "prompt": "Activate the prohibited symbol on the screen of luminaire fifteen.",
+    "command": "set_pictogram 15 4"
+  },
+  {
+    "prompt": "Turn on the power saving mode for luminaire six hundred and nineteen.",
+    "command": "dbr_on 619"
+  },
+  {
+    "prompt": "Turn emergency light off on luminaire 80.",
+    "command": "off 80"
+  },
+  {
+    "prompt": "Modify test called hallwayTest with ID sixty four and type of autonomy even to repeat every 3 days ready to run on 2025-07-12T09:00:00+04:00. Remove luminaires 7,9 and add to group six.",
+    "command": "update_test 64 hallwayTest 2025-07-12T09:00:00+04:00 3 autonomy_even true . 7,9 6 ."
+  },
+  {
+    "prompt": "Fetch the fourth execution of test ID twenty.",
+    "command": "get_test_instance 20 4"
+  },
+  {
+    "prompt": "Switch on the automatic energy saving mode for luminaire four hundred and fifteen.",
+    "command": "dbr_on 415"
+  },
+  {
+    "prompt": "Keep luminaire eight on without interruption.",
+    "command": "permanent_on 8"
+  },
+  {
+    "prompt": "Permanently delete luminaire with the number ID nine hundred and eighty seven.",
+    "command": "delete_luminaire 987"
+  },
+  {
+    "prompt": "End the autonomy test for luminaire twelve.",
+    "command": "stop_autonomy_test 12"
+  },
+  {
+    "prompt": "Disable both relay channels on control board fifteen.",
+    "command": "set_gpio_output 15 00"
+  },
+  {
+    "prompt": "Configure system to retrieve diagnostics automatically every 10 minutes.",
+    "command": "set_diagnostics 600"
+  },
+  {
+    "prompt": "Output luminaire info for the device whose ID is two hundred and two.",
+    "command": "info 202"
+  },
+  {
+    "prompt": "Terminate the test of light functionality for luminaire eighty five.",
+    "command": "stop_functional_test 85"
+  },
+  {
+    "prompt": "Produce a list of all sinks and their information.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Modify group eleven named emergencypath by adding luminaires 22,25,28.",
+    "command": "update_group 11 emergencypath 22,25,28 ."
+  },
+  {
+    "prompt": "Run a short forty-second functional test on luminaire seventy seven.",
+    "command": "start_functional_test 77 40"
+  },
+  {
+    "prompt": "What is the status of the luminaires service?",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Turn on emergency light for luminaire five hundred and twenty five.",
+    "command": "on 525"
+  },
+  {
+    "prompt": "Activate permanent lighting mode on luminaire 89.",
+    "command": "permanent_on 89"
+  },
+  {
+    "prompt": "Erase every luminaire entry in one step.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Erase luminaire ninety two from the controller records.",
+    "command": "delete_luminaire 92"
+  },
+  {
+    "prompt": "Erase multicast group eighty two.",
+    "command": "delete_group 82"
+  },
+  {
+    "prompt": "Turn off both GPIO outputs on relay identified as one hundred and two.",
+    "command": "set_gpio_output 102 00"
+  },
+  {
+    "prompt": "Show the command catalogue.",
+    "command": "help"
+  },
+  {
+    "prompt": "Set luminaire forty one to run a basic functionality test lasting seventy five seconds.",
+    "command": "start_functional_test 41 75"
+  },
+  {
+    "prompt": "Please activate augmented security on luminaire seven hundred and thirty one before nightfall.",
+    "command": "augmented_on 731"
+  },
+  {
+    "prompt": "Delete the diagnostics screen test with ID sixty five.",
+    "command": "delete_test 65"
+  },
+  {
+    "prompt": "Report the current state of the luminaires service.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Turn off status updates for luminaire twenty by setting period to zero.",
+    "command": "set_period 20 0"
+  },
+  {
+    "prompt": "Stop autonomy test for luminaire thirty.",
+    "command": "stop_autonomy_test 30"
+  },
+  {
+    "prompt": "Turn off proximity beacon signal for luminaire sixty one.",
+    "command": "disable_beacons 61"
+  },
+  {
+    "prompt": "Start over the luminaire 68.",
+    "command": "reset 68"
+  },
+  {
+    "prompt": "Send a status request to luminaire sixteen.",
+    "command": "status 16"
+  },
+  {
+    "prompt": "Abort and leave the program.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Get operating status of luminaire whose ID number is 57.",
+    "command": "status 57"
+  },
+  {
+    "prompt": "Create a new luminaire entry using ID nine hundred and twelve.",
+    "command": "add_luminaire 912"
+  },
+  {
+    "prompt": "Configure the sink node with in the luminaire network.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Provide information about multicast group seven.",
+    "command": "get_group 7"
+  },
+  {
+    "prompt": "Turn on beaconing via Bluetooth for luminaire seventy eight.",
+    "command": "enable_beacons 78"
+  },
+  {
+    "prompt": "Begin provisioning on every sink.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Restore state on luminaire fifty.",
+    "command": "reset_errors 50"
+  },
+  {
+    "prompt": "Run a full-length autonomy test for luminaire thirty with a duration of nine hundred seconds.",
+    "command": "start_autonomy_test 30 900"
+  },
+  {
+    "prompt": "Abort the autonomy testing process on luminaire thirty four.",
+    "command": "stop_autonomy_test 34"
+  },
+  {
+    "prompt": "Switch emergency light to on for luminaire 94.",
+    "command": "on 94"
+  },
+  {
+    "prompt": "Reset the network topology.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Retrieve all states in the lighting system.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Get the list of commands supported by this program.",
+    "command": "help"
+  },
+  {
+    "prompt": "Reset diagnostics on luminaire sixty five.",
+    "command": "reset_errors 65"
+  },
+  {
+    "prompt": "Show a summary of luminaires current states.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Adjust group seven, called entryzone, without adding or removing any luminaires.",
+    "command": "update_group 7 entryzone . ."
+  },
+  {
+    "prompt": "Print the command index.",
+    "command": "help"
+  },
+  {
+    "prompt": "Eliminate current error state on luminaire twelve.",
+    "command": "reset_errors 12"
+  },
+  {
+    "prompt": "Purge the entry for luminaire 121.",
+    "command": "delete_luminaire 121"
+  },
+  {
+    "prompt": "Provide data for the first run of test number eighty two.",
+    "command": "get_test_instance 82 1"
+  },
+  {
+    "prompt": "Force luminaire fifteen to stay permanently lit.",
+    "command": "permanent_on 15"
+  },
+  {
+    "prompt": "Restart luminaire one hundred and forty three.",
+    "command": "reset 143"
+  },
+  {
+    "prompt": "Produce a list of tests defined in the controller.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Take all sinks out of provisioning mode.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Deactivate the BLE beacon feature for luminaire twelve.",
+    "command": "disable_beacons 12"
+  },
+  {
+    "prompt": "Disable the the dynamic brightness regulation on luminaire one hundred and forty two.",
+    "command": "dbr_off 142"
+  },
+  {
+    "prompt": "Set diagnostics refresh cycle to half a minute.",
+    "command": "set_diagnostics 30"
+  },
+  {
+    "prompt": "Enable periodic diagnostics every one hundred and eighty seconds.",
+    "command": "set_diagnostics 180"
+  },
+  {
+    "prompt": "Create a multicast group called reception with luminaires two and six.",
+    "command": "add_group reception 2,6"
+  },
+  {
+    "prompt": "Register a test should be active named nightAutonomy for May 30, 2025 at midnight local time with type autonomy even, repeat every 30 days, only on groups five and ten.",
+    "command": "add_test nightAutonomy 2025-05-30T00:00:00Z 30 autonomy_even true . 5,10"
+  },
+  {
+    "prompt": "Apply a permanent mode in luminaire three to stay always lit.",
+    "command": "permanent_on 3"
+  },
+  {
+    "prompt": "Stop luminaire nineteen from running its functional test.",
+    "command": "stop_functional_test 19"
+  },
+  {
+    "prompt": "Register the emergency multicast group with luminaires five, nine and fourteen.",
+    "command": "add_group emergency 5,9,14"
+  },
+  {
+    "prompt": "Begin an autonomy test of three hundred seconds on luminaire 60.",
+    "command": "start_autonomy_test 60 300"
+  },
+  {
+    "prompt": "Add luminaire number 666 to the luminaires mesh.",
+    "command": "add_luminaire 666"
+  },
+  {
+    "prompt": "Start autonomy test on luminaire twelve with a length of one hundred and fifty seconds.",
+    "command": "start_autonomy_test 12 150"
+  },
+  {
+    "prompt": "Show me the catalogue of tests.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Return the inventory of tests the controller supports.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Clear the test record associated with ID 721.",
+    "command": "delete_test 721"
+  },
+  {
+    "prompt": "Get the fourth instance of test number sixty.",
+    "command": "get_test_instance 60 4"
+  },
+  {
+    "prompt": "Run a two-minute functional test for luminaire thirty eight.",
+    "command": "start_functional_test 38 120"
+  },
+  {
+    "prompt": "Run default sink configuration.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Deactivate augmented security for luminaire six hundred and five.",
+    "command": "augmented_off 605"
+  },
+  {
+    "prompt": "Retrieve multicast group whose ID is one.",
+    "command": "get_group 1"
+  },
+  {
+    "prompt": "Display the status and settings of luminaire 101.",
+    "command": "info 101"
+  },
+  {
+    "prompt": "Request real-time status from luminaire twenty.",
+    "command": "status 20"
+  },
+  {
+    "prompt": "Turn on Bluetooth announcements on luminaire thirty.",
+    "command": "enable_beacons 30"
+  },
+  {
+    "prompt": "Set luminaire one hundred and seventy five to emergency on.",
+    "command": "on 175"
+  },
+  {
+    "prompt": "Delete test thirty with its first instance.",
+    "command": "delete_test 30 1"
+  },
+  {
+    "prompt": "Request the luminaires service status.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Launch sink reconfiguration routine.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Provide details for group of luminaires whose ID is 57.",
+    "command": "get_group 57"
+  },
+  {
+    "prompt": "Display all available tests for fixtures.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Create a test labeled corridorLights with the type autonomy odd and set to start on June twelfth, twenty twenty-five, at 09:00 AM UTC and repeat every 10 days and keep the test disabled, for luminaires 10 to 20 and the luminaire whose ID is fifty.",
+    "command": "add_test corridorLights 2025-06-12T09:00:00Z 10 autonomy_odd false 10-20,50 ."
+  },
+  {
+    "prompt": "Activate augmented security for luminaire two hundred and four.",
+    "command": "augmented_on 204"
+  },
+  {
+    "prompt": "Put all sinks into join mode.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Erase the group of luminaires whose ID is 93.",
+    "command": "delete_group 93"
+  },
+  {
+    "prompt": "Close the terminal now.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Take the network out of provisioning mode.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Switch off the dynamic power-saving regulation for luminaire two hundred and sixty one.",
+    "command": "dbr_off 261"
+  },
+  {
+    "prompt": "Provide the complete set of tests configured for the network.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Display luminaire states for quick diagnostics.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Show help for the command that clears error status from a luminaire.",
+    "command": "help reset_errors"
+  },
+  {
+    "prompt": "Switch luminaire four hundred and fifty two to emergency on.",
+    "command": "on 452"
+  },
+  {
+    "prompt": "Create test weeklyBattery ready to run scheduled for June 10 2025 at 10:10 local time and the type autonomy, recurring every 7 days on luminaires 30-35 and 43,45 and group 6, leaving the test enabled.",
+    "command": "add_test weeklyBattery 2025-06-10T10:10:00Z 7 autonomy true 30-35,43,45 6"
+  },
+  {
+    "prompt": "Block new luminaires from connecting.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Clean up the device graph of the lighting system.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Deactivate augmented security for luminaire one hundred and nineteen.",
+    "command": "augmented_off 119"
+  },
+  {
+    "prompt": "Set the TFT luminosity to sixty percent for luminaire fifty one.",
+    "command": "set_brightness 51 60"
+  },
+  {
+    "prompt": "Start a fast autonomy test of forty seconds on luminaire ninety.",
+    "command": "start_autonomy_test 90 40"
+  },
+  {
+    "prompt": "Update the configuration of the data sinks.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "I need help with turning on Bluetooth beacons for a luminaire.",
+    "command": "help enable_beacons"
+  },
+  {
+    "prompt": "Indicate which luminaires are open to provisioning.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Deactivate Bluetooth beacon mode on luminaire ninety seven.",
+    "command": "disable_beacons 97"
+  },
+  {
+    "prompt": "Apply the pictogram that shows a right pointing arrow on luminaire seventy seven.",
+    "command": "set_pictogram 77 2"
+  },
+  {
+    "prompt": "Retrieve the list of every command available in this system.",
+    "command": "help"
+  },
+  {
+    "prompt": "Get instance number five for the test with ID 55.",
+    "command": "get_test_instance 55 5"
+  },
+  {
+    "prompt": "Remove the entry for the battery test with ID 742.",
+    "command": "delete_test 742"
+  },
+  {
+    "prompt": "Turn off the automatic brightness control for luminaire sixty eight.",
+    "command": "dbr_off 68"
+  },
+  {
+    "prompt": "Set luminaire two hundred and five to automatic energy regulation on.",
+    "command": "dbr_on 205"
+  },
+  {
+    "prompt": "Rebuild the mesh graph topology for every lighting device.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Update system to check diagnostics every 2 minutes (120 seconds).",
+    "command": "set_diagnostics 120"
+  },
+  {
+    "prompt": "Reinitialize the luminaire one hundred and sixty nine.",
+    "command": "reset 169"
+  },
+  {
+    "prompt": "Retrieve the full information of every sink in the lighting network.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Add a new luminaire with ID one hundred and forty five to the system.",
+    "command": "add_luminaire 145"
+  },
+  {
+    "prompt": "Launch a command to reset interconnection layout immediately.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Enable Bluetooth beaconing on luminaire sixty five to start location broadcasting.",
+    "command": "enable_beacons 65"
+  },
+  {
+    "prompt": "Output the diagnostics status.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Remove existing faults from luminaire five.",
+    "command": "reset_errors 5"
+  },
+  {
+    "prompt": "Get the current info of luminaire four hundred and twenty seven.",
+    "command": "info 427"
+  },
+  {
+    "prompt": "For maintenance, disable augmented security on luminaire eighty eight.",
+    "command": "augmented_off 88"
+  },
+  {
+    "prompt": "Add luminaires one, two and four to group sixteen called laboratory, without removing any.",
+    "command": "update_group 16 laboratory 1,2,4 ."
+  },
+  {
+    "prompt": "Show the identifiers for the connected lighting units.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Start a functional test of fifty seconds for luminaire eighty nine.",
+    "command": "start_functional_test 89 50"
+  },
+  {
+    "prompt": "Get a system-wide report of sink nodes.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Output the multicast groups currently in use by luminaires.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Disable permanent state for luminaire 66.",
+    "command": "permanent_off 66"
+  },
+  {
+    "prompt": "Present the sinks info at a glance.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Retrieve the addresses of each luminaire.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Provide a list of all supported commands.",
+    "command": "help"
+  },
+  {
+    "prompt": "Fetch the current diagnostics status.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Start sink configuration for mesh communication.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Fetch the second instance of the test with ID 10.",
+    "command": "get_test_instance 10 2"
+  },
+  {
+    "prompt": "Fetch all sinks data and info.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Allow device onboarding by enabling provisioning.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Introduce luminaire one thousand and four into the mesh.",
+    "command": "add_luminaire 1004"
+  },
+  {
+    "prompt": "Provide the status of the luminaires service.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Iniatilize a full luminaire purge procedure.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Start the provisioning window for nodes.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Enable the prohibited symbol on the screen of luminaire eight.",
+    "command": "set_pictogram 8 4"
+  },
+  {
+    "prompt": "Put the network into provisioning mode.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Trigger a quick autonomy test for luminaire 55 lasting 45 seconds.",
+    "command": "start_autonomy_test 55 45"
+  },
+  {
+    "prompt": "Configure pictogram zero which means an arrow pointing up, on luminaire 12.",
+    "command": "set_pictogram 12 0"
+  },
+  {
+    "prompt": "Give me a complete list of the states of all connected luminaires.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Terminate the CLI session.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Return the fifth run of the test assigned to ID 50.",
+    "command": "get_test_instance 50 5"
+  },
+  {
+    "prompt": "Show me all CLI commands offered.",
+    "command": "help"
+  },
+  {
+    "prompt": "Restart the luminaire three hundred and one.",
+    "command": "reset 301"
+  },
+  {
+    "prompt": "Stop emergency mode for luminaire with ID one hundred and forty seven.",
+    "command": "off 147"
+  },
+  {
+    "prompt": "Activate DBR mode on luminaire five hundred and thirty seven.",
+    "command": "dbr_on 537"
+  },
+  {
+    "prompt": "Leave the program immediately.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Program the emergencyCycle test ready to run for the twenty-sixth of September, twenty twenty-five, at 10:00 AM local time, repeated every 5 days on luminaires 5,8 and 12 and groups 1 and 3 and the light type.",
+    "command": "add_test emergencyCycle 2025-09-26T10:00:00Z 5 light true 5,8,12 1,3"
+  },
+  {
+    "prompt": "Push configuration to all data sinks.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Reset luminaire twenty eight error indicators.",
+    "command": "reset_errors 28"
+  },
+  {
+    "prompt": "Apply configuration to all sinks.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Update the test with ID 13, of type light, named sunriseCycle ready to run and activate it immediately on September first, only once, twenty twenty-six at six thirty AM local time and add luminaires ten to twenty and group five.",
+    "command": "update_test 13 sunriseCycle 2026-09-01T06:30:00Z 0 light true 10-20 . 5 ."
+  },
+  {
+    "prompt": "Permanently shut down luminaire ninety two.",
+    "command": "permanent_off 92"
+  },
+  {
+    "prompt": "Fetch the current test suite.",
+    "command": "get_tests"
+  },
+  {
+    "prompt": "Insert the luminaire ninety nine as a new node.",
+    "command": "add_luminaire 99"
+  },
+  {
+    "prompt": "Perform default sink configuration.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Make the system reject any new luminaires joining automatically.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Set the TFT pictogram to show an upward arrow on luminaire whose ID is 66.",
+    "command": "set_pictogram 66 0"
+  },
+  {
+    "prompt": "Update luminaire 71 to report every sixty seconds.",
+    "command": "set_period 71 60"
+  },
+  {
+    "prompt": "Launch a command to purge luminaires immediately.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Fetch the addresses of all the luminaires in a single command.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Update multicast group ten named parking to remove luminaires with IDs 60 through 63.",
+    "command": "update_group 10 parking . 60-63"
+  },
+  {
+    "prompt": "Show me all available commands.",
+    "command": "help"
+  },
+  {
+    "prompt": "Output the sinks info for a quick diagnostics.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Stop the advertising signal of luminaire ninety.",
+    "command": "disable_beacons 90"
+  },
+  {
+    "prompt": "Delete the luminaires group whose ID is ninety one.",
+    "command": "delete_group 91"
+  },
+  {
+    "prompt": "Halt the current functionality test on luminaire sixty four.",
+    "command": "stop_functional_test 64"
+  },
+  {
+    "prompt": "Configure diagnostics to run at sixty seconds intervals.",
+    "command": "set_diagnostics 60"
+  },
+  {
+    "prompt": "Disable emergency mode for luminaire whose ID is five hundred and eighty nine.",
+    "command": "off 589"
+  },
+  {
+    "prompt": "Change group five, labeled exitpath, by removing luminaires twenty through twenty five and the luminaire whose ID is thirty.",
+    "command": "update_group 5 exitpath . 20-25,30"
+  },
+  {
+    "prompt": "Enable dynamic brightness regulation on luminaire 113.",
+    "command": "dbr_on 113"
+  },
+  {
+    "prompt": "Turn off provisioning to stop new devices from joining.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Remove luminaire with the ID two hundred and seven.",
+    "command": "delete_luminaire 207"
+  },
+  {
+    "prompt": "Erase the luminaires group ninety seven.",
+    "command": "delete_group 97"
+  },
+  {
+    "prompt": "Get luminaires system service status.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Fetch full data of the hardware test with ID one thousand and ten.",
+    "command": "get_test 1010"
+  },
+  {
+    "prompt": "Get test number 36, instance number three.",
+    "command": "get_test_instance 36 3"
+  },
+  {
+    "prompt": "Retrieve the current sinks info record.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "List the connectivity map for every luminaire.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Display the complete list of unique address of the luminaires.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Set a test called singleRun to happen on 2025-06-15T12:00:00+01:00 with the light type and without repetition on luminaires 21 and 25 and group 3 and this set this test as active.",
+    "command": "add_test singleRun 2025-06-15T12:00:00+01:00 0 light true 21,25 3"
+  },
+  {
+    "prompt": "View the diagnostics status.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Initiate a group called emergency for luminaire with the ID 21.",
+    "command": "add_group emergency 21,22,28"
+  },
+  {
+    "prompt": "Request state report from luminaire sixty.",
+    "command": "status 60"
+  },
+  {
+    "prompt": "Update status reporting of luminaire eighty to a five-minute interval.",
+    "command": "set_period 80 300"
+  },
+  {
+    "prompt": "Turn off the automatic diagnostics polling.",
+    "command": "set_diagnostics 0"
+  },
+  {
+    "prompt": "End functional testing for luminaire twenty five.",
+    "command": "stop_functional_test 25"
+  },
+  {
+    "prompt": "Use the down arrow icon on the TFT of luminaire fifty eight.",
+    "command": "set_pictogram 58 1"
+  },
+  {
+    "prompt": "Output the multicast group with the number twenty three.",
+    "command": "get_group 23"
+  },
+  {
+    "prompt": "Verify the luminaires service status.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "What is the current diagnostics status?",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Check the current state of diagnostics.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Begin a light funcionality test of fifteen minutes (900 seconds) on luminaire two.",
+    "command": "start_functional_test 2 900"
+  },
+  {
+    "prompt": "Update the screen luminosity of luminaire nineteen to seventy percent.",
+    "command": "set_brightness 19 70"
+  },
+  {
+    "prompt": "Show the outcomes of the results tests.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Put luminaire ninety five into permanent off mode.",
+    "command": "permanent_off 95"
+  },
+  {
+    "prompt": "Disable beacon broadcasting that sends presence data from luminaire sixty eight.",
+    "command": "disable_beacons 68"
+  },
+  {
+    "prompt": "Exit the CLI.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Provide the device identifiers list for every luminaire available.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Cut off both relay outputs on hardware with ID 991087.",
+    "command": "set_gpio_output 991087 00"
+  },
+  {
+    "prompt": "Disable autonomy test in progress for luminaire with ID: 62.",
+    "command": "stop_autonomy_test 62"
+  },
+  {
+    "prompt": "Adjust luminaire seventy five with ID 75 to a screen brightness level of eighty percent.",
+    "command": "set_brightness 75 80"
+  },
+  {
+    "prompt": "Reset luminaire two hundred and seventy eight to default configuration.",
+    "command": "reset 278"
+  },
+  {
+    "prompt": "Change test ID sixteen, named eveningStart and type light, once only, to add luminaires four, five and six, and remove luminaire seven. Date: 2025-08-11T18:00:00+03:00 and the test should be active.",
+    "command": "update_test 16 eveningStart 2025-08-11T18:00:00+03:00 0 light true 4,5,6 7 . ."
+  },
+  {
+    "prompt": "Initiate the test named inspectionMorning with the type autonomy odd and without repetition to run on the seventh day of July twenty twenty-five at seven o'clock in the morning local time for luminaires one and two and keep test enabled without repetition..",
+    "command": "add_test inspectionMorning 2025-07-07T07:00:00Z 0 autonomy_odd true 1,2 ."
+  },
+  {
+    "prompt": "Stop functional test for luminaire thirty nine.",
+    "command": "stop_functional_test 39"
+  },
+  {
+    "prompt": "Get data for multicast group with ID number 907.",
+    "command": "get_group 907"
+  },
+  {
+    "prompt": "Display the provisioning activation status for each luminaire.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Discard the saved test with ID two hundred and six.",
+    "command": "delete_test 206"
+  },
+  {
+    "prompt": "Create a multicast group named warehouse to include luminaire with ID twenty.",
+    "command": "add_group warehouse 20"
+  },
+  {
+    "prompt": "Restart the network topology for luminaires.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Show the restricted access symbol on the display of luminaire two hundred and three.",
+    "command": "set_pictogram 203 4"
+  },
+  {
+    "prompt": "Add the programed test eveningTest set for 2026-05-18 at 18:00 UTC ready to run and with the light type and no repetition, for luminaires 15 to 20, group 8.",
+    "command": "add_test eveningTest 2026-05-18T18:00:00Z 0 light true 15-20 8"
+  },
+  {
+    "prompt": "Update group fourteen named outdoor to include luminaires 40 to 45 and remove none.",
+    "command": "update_group 14 outdoor 40-45 ."
+  },
+  {
+    "prompt": "Enable DBR on luminaire ninety eight.",
+    "command": "dbr_on 98"
+  },
+  {
+    "prompt": "Begin an autonomy test on luminaire forty four for 180 seconds (3 minutes).",
+    "command": "start_autonomy_test 44 180"
+  },
+  {
+    "prompt": "Present the diagnostics status report.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Keep luminaire eighty four always on.",
+    "command": "permanent_on 84"
+  },
+  {
+    "prompt": "Turn off the dynamic brightness regulation for luminaire 318",
+    "command": "dbr_off 318"
+  },
+  {
+    "prompt": "Interrupt functional test on luminaire with ID 46.",
+    "command": "stop_functional_test 46"
+  },
+  {
+    "prompt": "Set up the sink device parameters automatically.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Reset the luminaire inventory by fresh the system.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Turn off Bluetooth beacons for luminaire twenty six.",
+    "command": "disable_beacons 26"
+  },
+  {
+    "prompt": "List all devices currently set to accept provisioning.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Set the luminaire forty nine to display a down pointing arrow.",
+    "command": "set_pictogram 49 1"
+  },
+  {
+    "prompt": "Tell me the status of the luminaires service.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Update test named basementAlert and ID: 678 with the type autonomy even set for August fifteenth, twenty twenty-five at seven AM UTC to recur every 10 days, adding luminaires 90 and 95, leaving the test enabled.",
+    "command": "update_test 678 basementAlert 2025-08-15T07:00:00Z 10 autonomy_even true 90,95 . . ."
+  },
+  {
+    "prompt": "Generate the network topology for the lighting fixtures.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Deactivate provisioning across the lighting system.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Set augmented security to on for luminaire sixty three.",
+    "command": "augmented_on 63"
+  },
+  {
+    "prompt": "Turn augmented security on for luminaire 19.",
+    "command": "augmented_on 19"
+  },
+  {
+    "prompt": "List all lighting groups configured in the system.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Obtain the addresses of the entire set of luminaires.",
+    "command": "get_luminaires"
+  },
+  {
+    "prompt": "Insert a new luminaire whose identifier is five.",
+    "command": "add_luminaire 5"
+  },
+  {
+    "prompt": "Run a four-minute illumination check test on luminaire twenty four.",
+    "command": "start_functional_test 24 240"
+  },
+  {
+    "prompt": "Eliminate the external PCB test saved as ID ninety four.",
+    "command": "delete_test 94"
+  },
+  {
+    "prompt": "Modify group with ID four called mainhall to add luminaires 15 and 18 only.",
+    "command": "update_group 4 mainhall 15,18 ."
+  },
+  {
+    "prompt": "Enable emergency mode on luminaire three hundred and eighty nine.",
+    "command": "on 389"
+  },
+  {
+    "prompt": "Fetch the group whose ID is eighteen.",
+    "command": "get_group 18"
+  },
+  {
+    "prompt": "Erase luminaire one thousand four hundred and ninety nine.",
+    "command": "delete_luminaire 1499"
+  },
+  {
+    "prompt": "Retrieve tests results across the entire luminaire system.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Switch luminaire thirty two to permanent on.",
+    "command": "permanent_on 32"
+  },
+  {
+    "prompt": "Set emergency light on for luminaire seven hundred and sixty.",
+    "command": "on 760"
+  },
+  {
+    "prompt": "Show help for the command that stops an autonomy test.",
+    "command": "help stop_autonomy_test"
+  },
+  {
+    "prompt": "Reset all active issues in luminaire seventy nine.",
+    "command": "reset_errors 79"
+  },
+  {
+    "prompt": "Fetch the list of all configured device groups.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Activate the demand response mode for luminaire three hundred and twenty two.",
+    "command": "dbr_on 322"
+  },
+  {
+    "prompt": "Set luminaire ninety four to update status once every 300 seconds.",
+    "command": "set_period 94 300"
+  },
+  {
+    "prompt": "Display the lighting group identified as 310.",
+    "command": "get_group 310"
+  },
+  {
+    "prompt": "Adjust the luminosity level of luminaire ninety two to 40%.",
+    "command": "set_brightness 92 40"
+  },
+  {
+    "prompt": "Terminate luminaire 80 autonomy test.",
+    "command": "stop_autonomy_test 80"
+  },
+  {
+    "prompt": "Abort the operational test running on luminaire 90.",
+    "command": "stop_functional_test 90"
+  },
+  {
+    "prompt": "Start the short autonomy test for luminaire eight, lasting thirty seconds.",
+    "command": "start_autonomy_test 8 30"
+  },
+  {
+    "prompt": "Query status from luminaire 25.",
+    "command": "status 25"
+  },
+  {
+    "prompt": "Retrieve the node graph showing how all luminaires are interconnected.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Update the display of luminaire forty to full brightness, which is one hundred percent.",
+    "command": "set_brightness 40 100"
+  },
+  {
+    "prompt": "Reduce the brightness of luminaire eighty to 10% percent out of 100% hundred.",
+    "command": "set_brightness 80 10"
+  },
+  {
+    "prompt": "Output the test results for a quick quality check.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "List about the diagnostics status.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Switch augmented security on luminaire eight hundred and forty one.",
+    "command": "augmented_off 841"
+  },
+  {
+    "prompt": "Present the provisioning status for lighting devices at a glance.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "End the current session.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Turn on the DBR feature for luminaire eight hundred and twenty four.",
+    "command": "dbr_on 824"
+  },
+  {
+    "prompt": "Set luminaire one thousand one hundred and twenty two to emergency off.",
+    "command": "off 1122"
+  },
+  {
+    "prompt": "Show the lighting mesh graph used for routing data.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Update group 12, tagged as reception, removing luminaires eleven and fifteen and from twenty to twenty-five.",
+    "command": "update_group 12 reception . 11,13,20-25"
+  },
+  {
+    "prompt": "Enable Bluetooth beacons for luminaire eighty seven.",
+    "command": "enable_beacons 87"
+  },
+  {
+    "prompt": "Generate a new autonomy test with the autonomy odd type named sunriseCheck on July 5th, 2025 at 07:00 AM local time for luminaires 10, 15 and 20 and group whose ID is ten, with the test enabled and with no repetition.",
+    "command": "add_test sunriseCheck 2025-07-05T07:00:00Z 0 autonomy_odd true 10,15,20 10"
+  },
+  {
+    "prompt": "Apply permanent off command to luminaire thirty eight.",
+    "command": "permanent_off 38"
+  },
+  {
+    "prompt": "Reset device graph information across the network.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Delete test with ID 44, instance 4.",
+    "command": "delete_test 44 4"
+  },
+  {
+    "prompt": "Disable emergency light on luminaire two hundred and nineteen.",
+    "command": "off 219"
+  },
+  {
+    "prompt": "Disable augmented security for luminaire thirty five.",
+    "command": "augmented_off 35"
+  },
+  {
+    "prompt": "Give me the routing map representing luminaire connectivity.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Check if the luminaires service is active.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Inspect the status of the luminaires service.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Activate emergency mode on luminaire with the number fifty eight.",
+    "command": "on 58"
+  },
+  {
+    "prompt": "Generate a complete list of the operational states of luminaires.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Switch luminaire twenty five to permanent off state.",
+    "command": "permanent_off 25"
+  },
+  {
+    "prompt": "Configure luminaire thirty three to operate at 60% screen brightness.",
+    "command": "set_brightness 33 60"
+  },
+  {
+    "prompt": "How can I help to stop a functional test on a luminaire?",
+    "command": "help stop_functional_test"
+  },
+  {
+    "prompt": "Start an extended autonomy test of fifteen minutes on luminaire ninety three.",
+    "command": "start_autonomy_test 93 900"
+  },
+  {
+    "prompt": "Introduce a new luminaire with identifier two hundred and six.",
+    "command": "add_luminaire 206"
+  },
+  {
+    "prompt": "Stop Bluetooth broadcasting for luminaire forty seven.",
+    "command": "disable_beacons 47"
+  },
+  {
+    "prompt": "Set luminaire twenty seven status refresh rate to ten seconds.",
+    "command": "set_period 27 10"
+  },
+  {
+    "prompt": "Turn off the automatic dimming feature for luminaire nine hundred and eleven.",
+    "command": "dbr_off 911"
+  },
+  {
+    "prompt": "Turn augmented security off for luminaire six hundred and seventeen.",
+    "command": "augmented_off 617"
+  },
+  {
+    "prompt": "Activate emergency light on luminaire nine hundred and thirty six.",
+    "command": "on 936"
+  },
+  {
+    "prompt": "Turn on emergency mode for luminaire 244.",
+    "command": "on 244"
+  },
+  {
+    "prompt": "Permanently delete test number one thousand and ninety three.",
+    "command": "delete_test 1093"
+  },
+  {
+    "prompt": "Add new luminaire with the identifier four.",
+    "command": "add_luminaire 4"
+  },
+  {
+    "prompt": "Turn off Bluetooth advertising for luminaire ninety two.",
+    "command": "disable_beacons 92"
+  },
+  {
+    "prompt": "Start Bluetooth beacon transmission for luminaire thirteen.",
+    "command": "enable_beacons 13"
+  },
+  {
+    "prompt": "Retrieve the test results for every luminaire in the network.",
+    "command": "get_test_results"
+  },
+  {
+    "prompt": "Send status request to luminaire thirteen.",
+    "command": "status 13"
+  },
+  {
+    "prompt": "Append the luminaire whose ID is 23.",
+    "command": "add_luminaire 23"
+  },
+  {
+    "prompt": "How can I obtain info to force a luminaire to stay on all the time?",
+    "command": "help permanent_on"
+  },
+  {
+    "prompt": "Enable always on mode for luminaire twenty.",
+    "command": "permanent_on 20"
+  },
+  {
+    "prompt": "Make luminaire forty four remain on at all times.",
+    "command": "permanent_on 44"
+  },
+  {
+    "prompt": "Request information on the test stored under ID seventy two.",
+    "command": "get_test 72"
+  },
+  {
+    "prompt": "Stop running the application.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Load sink configuration for deployment.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Switch luminaire forty four to a permanent off state.",
+    "command": "permanent_off 44"
+  },
+  {
+    "prompt": "End provisioning on every sink.",
+    "command": "disable_provisioning"
+  },
+  {
+    "prompt": "Eliminate instance two for test identified as seventy.",
+    "command": "delete_test 70 2"
+  },
+  {
+    "prompt": "Update the test with ID 17, of type light, named weeklySurvey, starting 2026-11-01 at 09:00 UTC to include luminaires from twenty to thirty, test is set as active.",
+    "command": "update_test 17 weeklySurvey 2026-11-01T09:00:00Z 7 light true 20-30 . . ."
+  },
+  {
+    "prompt": "Eliminate the second execution of test twenty five.",
+    "command": "delete_test 25 2"
+  },
+  {
+    "prompt": "Stop Bluetooth Low Energy advertising for luminaire fifty three.",
+    "command": "disable_beacons 53"
+  },
+  {
+    "prompt": "Output the summary of all commands offered in this system.",
+    "command": "help"
+  },
+  {
+    "prompt": "Modify test called batteryCheck whose ID is fourteen and the autonomy even type to execute again on 2025-10-12T05:00:00Z every seven days, removing luminaire 22 and adding group three and mark the test as disabled.",
+    "command": "update_test 14 batteryCheck 2025-10-12T05:00:00Z 7 autonomy_even false . 22 3 ."
+  },
+  {
+    "prompt": "Append device ID eight hundred and one as a luminaire.",
+    "command": "add_luminaire 801"
+  },
+  {
+    "prompt": "Define a new group named exit for luminaires from 41 to 45 and luminaire whose ID is fifty.",
+    "command": "add_group exit 41-45,50"
+  },
+  {
+    "prompt": "Display multicast group identified as one hundred and twelve.",
+    "command": "get_group 112"
+  },
+  {
+    "prompt": "Remove the group of luminaires with the number seventy five.",
+    "command": "delete_group 75"
+  },
+  {
+    "prompt": "Delete the first execution of test ID 12.",
+    "command": "delete_test 12 1"
+  },
+  {
+    "prompt": "Remove test instance ID 9012 from the system.",
+    "command": "delete_test 9012"
+  },
+  {
+    "prompt": "Request the diagnostics status.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Activate permanent on for luminaire sixty three.",
+    "command": "permanent_on 63"
+  },
+  {
+    "prompt": "Determine the luminaires service state.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Set the screen brightness of luminaire twenty four identified as ID 24 to fifty percent of its maximum.",
+    "command": "set_brightness 24 50"
+  },
+  {
+    "prompt": "Deactivate emergency light on luminaire four hundred and nine.",
+    "command": "off 409"
+  },
+  {
+    "prompt": "Start the Bluetooth beacon signal on luminaire ninety three.",
+    "command": "enable_beacons 93"
+  },
+  {
+    "prompt": "Access results of the EXTERNAL_MCU test using ID two hundred and two.",
+    "command": "get_test 202"
+  },
+  {
+    "prompt": "Access the external PCB test report identified by ID 58.",
+    "command": "get_test 58"
+  },
+  {
+    "prompt": "Show the groups defined in luminaires.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Disable periodic status messages for luminaire forty nine.",
+    "command": "set_period 49 0"
+  },
+  {
+    "prompt": "Obtain the state information for the whole lighting network.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Force stop of autonomy test on luminaire forty three.",
+    "command": "stop_autonomy_test 43"
+  },
+  {
+    "prompt": "Retrieve the group definitions for the luminaires.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Update status period of luminaire 31 to ten seconds.",
+    "command": "set_period 31 10"
+  },
+  {
+    "prompt": "Deactivate DBR for luminaire with number ID 578.",
+    "command": "dbr_off 578"
+  },
+  {
+    "prompt": "Retrieve the test info corresponding to ID 834.",
+    "command": "get_test 834"
+  },
+  {
+    "prompt": "Retrieve the multicast groups configured for all luminaires.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "List the provising status of each luminaire.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Enable the advertising signal on luminaire forty eight.",
+    "command": "enable_beacons 48"
+  },
+  {
+    "prompt": "Stop the brightness adjustment mode on luminaire four hundred and seventeen.",
+    "command": "dbr_off 417"
+  },
+  {
+    "prompt": "Fetch the luminaires service status report.",
+    "command": "zwp"
+  },
+  {
+    "prompt": "Deactivate all relay outputs on module seven hundred and seventy seven.",
+    "command": "set_gpio_output 777 00"
+  },
+  {
+    "prompt": "Generate a new test called emergencyCheck to be run once on 2025-05-12 at 06:18 PM local time with the type light and no repeat, targeting luminaires from 1 to 5 and groups 2 and 4 and activate it immediately.",
+    "command": "add_test emergencyCheck 2025-05-12T18:18:00Z 0 light true 1-5 2,4"
+  },
+  {
+    "prompt": "Enable GPIO output two on device ninety nine.",
+    "command": "set_gpio_output 99 10"
+  },
+  {
+    "prompt": "Set luminaire thirty to display an arrow pointing left.",
+    "command": "set_pictogram 30 3"
+  },
+  {
+    "prompt": "Apply a three hundred second status update interval to luminaire 55.",
+    "command": "set_period 55 300"
+  },
+  {
+    "prompt": "Cancel functionality test running on luminaire 16.",
+    "command": "stop_functional_test 16"
+  },
+  {
+    "prompt": "Terminate the program.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Add luminaire one thousand and eighty nine to the mesh.",
+    "command": "add_luminaire 1089"
+  },
+  {
+    "prompt": "Wipe out instance number three of test 40.",
+    "command": "delete_test 40 3"
+  },
+  {
+    "prompt": "Activate provisioning across the lighting system.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "List the operating states of all luminaires.",
+    "command": "get_luminaires_states"
+  },
+  {
+    "prompt": "Drop luminaire three hundred and fifty six from the mesh.",
+    "command": "delete_luminaire 356"
+  },
+  {
+    "prompt": "Quit the program.",
+    "command": "exit"
+  },
+  {
+    "prompt": "Configure the display of luminaire sixty nine to full luminosity at one hundred percent.",
+    "command": "set_brightness 69 100"
+  },
+  {
+    "prompt": "Switch provisioning to ON state.",
+    "command": "enable_provisioning"
+  },
+  {
+    "prompt": "Show diagnostics status.",
+    "command": "get_diagnostics"
+  },
+  {
+    "prompt": "Enable output one on relay unit 701122.",
+    "command": "set_gpio_output 701122 01"
+  },
+  {
+    "prompt": "How can I see the manual of the command that disable BLE beaconing for a device?",
+    "command": "help disable_beacons"
+  },
+  {
+    "prompt": "Create a group alerts for luminaires with IDs eleven to fifty.",
+    "command": "add_group alerts 11-50"
+  },
+  {
+    "prompt": "Output the multicast groups configured on the system at once.",
+    "command": "get_groups"
+  },
+  {
+    "prompt": "Clear errors from luminaire 74.",
+    "command": "reset_errors 74"
+  },
+  {
+    "prompt": "Reconfigure the data sinks in the system.",
+    "command": "config_sink"
+  },
+  {
+    "prompt": "Provide a complete list of the sinks information.",
+    "command": "get_sinks"
+  },
+  {
+    "prompt": "Set luminaire 84 to always off mode.",
+    "command": "permanent_off 84"
+  },
+  {
+    "prompt": "Force luminaire seventy to remain off until reactivated.",
+    "command": "permanent_off 70"
+  },
+  {
+    "prompt": "Switch emergency mode off for luminaire with the number two hundred and sixty eight.",
+    "command": "off 268"
+  },
+  {
+    "prompt": "Recognise and restore luminaire forty two errors.",
+    "command": "reset_errors 42"
+  },
+  {
+    "prompt": "Display the results of test number 97.",
+    "command": "get_test 97"
+  },
+  {
+    "prompt": "Eliminate the diagnostics for test number one hundred and thirty six.",
+    "command": "delete_test 136"
+  },
+  {
+    "prompt": "Display the pictogram of a right arrow on luminaire ninety.",
+    "command": "set_pictogram 90 2"
+  },
+  {
+    "prompt": "Set the adaptive lighting regulation to off for luminaire eight hundred and five.",
+    "command": "dbr_off 805"
+  },
+  {
+    "prompt": "Disable the dynamic power saving regulation for luminaire seven hundred and sixty.",
+    "command": "dbr_off 760"
+  },
+  {
+    "prompt": "Show me the detailed info for the luminaire identified as seventy three.",
+    "command": "info 73"
+  },
+  {
+    "prompt": "Launch a basic light funcionality test of 180 seconds on luminaire whose ID number is: 17.",
+    "command": "start_functional_test 17 180"
+  },
+  {
+    "prompt": "Display information about luminaire 501.",
+    "command": "info 501"
+  },
+  {
+    "prompt": "Remove every luminaire in the system.",
+    "command": "purge_luminaires"
+  },
+  {
+    "prompt": "Produce a device graph of the luminaires mesh network.",
+    "command": "get_mesh"
+  },
+  {
+    "prompt": "Eliminate the second run of test identified as 18.",
+    "command": "delete_test 18 2"
+  },
+  {
+    "prompt": "Set automatic power reduction mode to off for luminaire ninety five.",
+    "command": "dbr_off 95"
+  },
+  {
+    "prompt": "Show me help for the command that checks a luminaire’s current status.",
+    "command": "help status"
+  },
+  {
+    "prompt": "Change the brightness level of luminaire identified as 61 to ninety percent of its full brightness.",
+    "command": "set_brightness 61 90"
+  },
+  {
+    "prompt": "Flush the mesh graph used by smart luminaires.",
+    "command": "reset_mesh"
+  },
+  {
+    "prompt": "Activate BLE broadcasting from luminaire seventy.",
+    "command": "enable_beacons 70"
+  },
+  {
+    "prompt": "Show all available commands in the luminaire CLI.",
+    "command": "help"
+  },
+  {
+    "prompt": "Provide the list commands.",
+    "command": "help"
+  },
+  {
+    "prompt": "Request the diagnostics recorded in test number nine.",
+    "command": "get_test 9"
+  },
+  {
+    "prompt": "Retrieve the provisioning status of every luminaire in the system.",
+    "command": "get_provisioning"
+  },
+  {
+    "prompt": "Query test 17 to return its third execution.",
+    "command": "get_test_instance 17 3"
+  },
+  {
+    "prompt": "Restore luminaire eighty two to its default state.",
+    "command": "reset 82"
+  },
+  {
+    "prompt": "Switch both GPIO outputs off on relay twenty two.",
+    "command": "set_gpio_output 22 00"
+  },
+  {
+    "prompt": "Remove the test with ID thirty five, instance two.",
+    "command": "delete_test 35 2"
+  },
+  {
+    "prompt": "Remove group twenty eight.",
+    "command": "delete_group 28"
+  },
+  {
+    "prompt": "Update group ID: 6, named hallway to add luminaires 5,7 and remove luminaire 9.",
+    "command": "update_group 6 hallway 5,7 9"
+  },
+  {
+    "prompt": "Activate the join function across all controllers.",
+    "command": "enable_provisioning"
+  }
+]

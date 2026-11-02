@@ -1,0 +1,426 @@
+[
+    {
+      "prompt": "Elimina el test número siete de la memoria.",
+      "command": "delete_test 7"
+    },
+    {
+      "prompt": "Obtén la instancia dos para el test con ID cinco.",
+      "command": "get_test_instance 5 2"
+    },
+    {
+      "prompt": "Crea el test denominado bateria con el tipo autonomy para las doce AM hora local del veinticinco de julio de dos mil veinticinco sin repetición y manteniendo la prueba activa, en las luminarias de la uno a la diez.",
+      "command": "add_test bateria 2025-07-25T12:00:00Z 0 autonomy true 1-10 ."
+    },
+    {
+      "prompt": "Obtén la topología de red del sistema.",
+      "command": "get_mesh"
+    },
+    {
+      "prompt": "Muestra información de los sinks.",
+      "command": "get_sinks"
+    },
+    {
+      "prompt": "Ajusta la frecuencia de diagnóstico para que se actualice cada sesenta segundos.",
+      "command": "set_diagnostics 60"
+    },
+    {
+      "prompt": "Actualizar el grupo veinte denominado piloto para eliminar la luminaria cincuenta.",
+      "command": "update_group 20 piloto . 50"
+    },
+    {
+      "prompt": "Restablece el gráfico de conexión de las luminarias.",
+      "command": "reset_mesh"
+    },
+    {
+      "prompt": "Desactiva el aprovisionamiento.",
+      "command": "disable_provisioning"
+    },
+    {
+      "prompt": "Obtén el estado actual del servicio de luminarias.",
+      "command": "zwp"
+    },
+    {
+      "prompt": "Desactiva la regulación dinámica de la luminosidad en la luminaria doscientos once.",
+      "command": "dbr_off 211"
+    },
+    {
+      "prompt": "Habilita la primera salida del relé número cincuenta.",
+      "command": "set_gpio_output 50 01"
+    },
+    {
+      "prompt": "Pon la luminaria cuarenta y nueve en modo encendido permanente.",
+      "command": "permanent_on 49"
+    },
+    {
+      "prompt": "Reinicia la luminaria cuyo ID es trece.",
+      "command": "reset 13"
+    },
+    {
+      "prompt": "Desactiva la iluminación de emergencia de la luminaria cuyo ID es catorce.",
+      "command": "off 14"
+    },
+    {
+      "prompt": "Lanza un test de funcionamiento para la luminaria cinco con una duración de ciento veinte segundos.",
+      "command": "start_functional_test 5 120"
+    },
+    {
+      "prompt": "Detén el test de autonomía de la luminaria veintiuno.",
+      "command": "stop_autonomy_test 21"
+    },
+    {
+      "prompt": "Necesito ayuda sobre cómo añadir una nueva luminaria.",
+      "command": "help add_luminaire"
+    },
+    {
+      "prompt": "Habilita la regulación dinámica de la luminosidad en la luminaria trescientos noventa y dos.",
+      "command": "dbr_on 392"
+    },
+    {
+      "prompt": "Desactiva la transmisión inalámbrica de balizas en la luminaria ochenta y cuatro.",
+      "command": "disable_beacons 84"
+    },
+    {
+      "prompt": "Lista los detalles del grupo que tiene ID doce.",
+      "command": "get_group 12"
+    },
+    {
+      "prompt": "Lista todos los tests disponibles en el sistema.",
+      "command": "get_tests"
+    },
+    {
+      "prompt": "Apaga la luz de emergencia de la luminaria quinientos doce.",
+      "command": "off 512"
+    },
+    {
+      "prompt": "Cierra la interfaz de línea de comandos de las luminarias",
+      "command": "exit"
+    },
+    {
+      "prompt": "Habilita balizas Bluetooth para la luminaria cuarenta y cuatro.",
+      "command": "enable_beacons 44"
+    },
+    {
+      "prompt": "Añade la luminaria identificada como once.",
+      "command": "add_luminaire 11"
+    },
+    {
+      "prompt": "Enciende la seguridad aumentada para la luminaria ciento setenta y seis.",
+      "command": "augmented_on 176"
+    },
+    {
+      "prompt": "Muéstrame la información sobre la luminaria quince.",
+      "command": "info 15"
+    },
+    {
+      "prompt": "Desconecta las dos salidas GPIO del relé número once.",
+      "command": "set_gpio_output 11 00"
+    },
+    {
+      "prompt": "Registra un grupo llamado almacenamiento para las luminarias de la cinco a la diez y la luminaria cuyo ID es veinte.",
+      "command": "add_group almacenamiento 5-10,20"
+    },
+    {
+      "prompt": "Purgue todas las luminarias del sistema.",
+      "command": "purge_luminaires"
+    },
+    {
+      "prompt": "Muestra el informe de estado de aprovisionamiento.",
+      "command": "get_provisioning"
+    },
+    {
+      "prompt": "Obtén todas las pruebas de luminarias.",
+      "command": "get_tests"
+    },
+    {
+      "prompt": "Compruebe el estado de la luminaria cuarenta y dos.",
+      "command": "status 42"
+    },
+    {
+      "prompt": "Habilita el aprovisionamiento de luminarias.",
+      "command": "enable_provisioning"
+    },
+    {
+      "prompt": "Obtenga todos los estados de las luminarias.",
+      "command": "get_luminaires_states"
+    },
+    {
+      "prompt": "Muestra todos los comandos posibles que puedo ejecutar.",
+      "command": "help"
+    },
+    {
+      "prompt": "Elimina el grupo once.",
+      "command": "delete_group 11"
+    },
+    {
+      "prompt": "Muestra el gráfico de los enlaces de malla actualmente activos.",
+      "command": "get_mesh"
+    },
+    {
+      "prompt": "Obtén el test cuyo ID es diez.",
+      "command": "get_test 10"
+    },
+    {
+      "prompt": "Detén el test funcional de la luminaria setenta y ocho.",
+      "command": "stop_functional_test 78"
+    },
+    {
+      "prompt": "Crea un grupo llamado piloto para luminarias de la una a la cien.",
+      "command": "add_group piloto 1-100"
+    },
+    {
+      "prompt": "Habilita la seguridad aumentada para la luminaria con ID siete.",
+      "command": "augmented_on 7"
+    },
+    {
+      "prompt": "Muestra el estado de los diagnósticos.",
+      "command": "get_diagnostics"
+    },
+    {
+      "prompt": "Muestra los identificadores de dispositivo de todas las luminarias.",
+      "command": "get_luminaires"
+    },
+    {
+      "prompt": "Presenta un resumen de los resultados de los tests.",
+      "command": "get_test_results"
+    },
+    {
+      "prompt": "Lista los detalles de todos los sinks.",
+      "command": "get_sinks"
+    },
+    {
+      "prompt": "Muestra los resultados de los tests del sistema de luminarias.",
+      "command": "get_test_results"
+    },
+    {
+      "prompt": "Añade la luminaria con el identificador sesenta y ocho.",
+      "command": "add_luminaire 68"
+    },
+    {
+      "prompt": "Activa el modo de emergencia para la luminaria once.",
+      "command": "on 11"
+    },
+    {
+      "prompt": "Cerrar la consola de control de las luminarias.",
+      "command": "exit"
+    },
+    {
+      "prompt": "Aplica la configuración del sistema para los sinks.",
+      "command": "config_sink"
+    },
+    {
+      "prompt": "Restablece el estado de error de la luminaria setenta y uno.",
+      "command": "reset_errors 71"
+    },
+    {
+      "prompt": "Reinicia la luminaria con el ID cuatrocientos cincuenta y dos.",
+      "command": "reset 452"
+    },
+    {
+      "prompt": "Inicia un test de funcionamiento de treinta segundos en la luminaria noventa.",
+      "command": "start_functional_test 90 30"
+    },
+    {
+      "prompt": "Activa las actualizaciones de estado de la luminaria setenta y dos con un intervalo de sesenta segundos.",
+      "command": "set_period 72 60"
+    },
+    {
+      "prompt": "Muestra el estado actual de los diagnósticos.",
+      "command": "get_diagnostics"
+    },
+    {
+      "prompt": "Inicia el test de autonomía de la luminaria quince con una duración de sesenta segundos.",
+      "command": "start_autonomy_test 15 60"
+    },
+    {
+      "prompt": "Muestra el símbolo de prohibido en la luminaria treinta y nueve.",
+      "command": "set_pictogram 39 4"
+    },
+    {
+      "prompt": "Desactiva el control automático de luminosidad en la luminaria con ID seis.",
+      "command": "dbr_off 6"
+    },
+    {
+      "prompt": "Configura la regulación automática de potencia en luminaria con ID siete.",
+      "command": "dbr_on 7"
+    },
+    {
+      "prompt": "Elimina el grupo de luminarias con ID cinco.",
+      "command": "delete_group 5"
+    },
+    {
+      "prompt": "Obtenga el estado de aprovisionamiento de todas las luminarias.",
+      "command": "get_provisioning"
+    },
+    {
+      "prompt": "Activa el modo baliza Bluetooth en la luminaria cincuenta y uno.",
+      "command": "enable_beacons 51"
+    },
+    {
+      "prompt": "Muéstrame los estados de cada luminaria.",
+      "command": "get_luminaires_states"
+    },
+    {
+      "prompt": "Desactiva el modo de baliza Bluetooth en la luminaria diez.",
+      "command": "disable_beacons 10"
+    },
+    {
+      "prompt": "Ajusta la actualización del estado de la luminaria setenta y ocho a cada treinta segundos.",
+      "command": "set_period 78 30"
+    },
+    {
+      "prompt": "Activa la iluminación de emergencia en luminaria con ID mil cuarenta.",
+      "command": "on 1040"
+    },
+    {
+      "prompt": "Modifica el grupo diecinueve denominado inspeccion añadiendo las luminarias de la uno a la veinte y eliminando la cuarenta.",
+      "command": "update_group 19 inspeccion 1-20 40"
+    },
+    {
+      "prompt": "Quita la luminaria cuyo ID es el cuatrocientos veintiuno.",
+      "command": "delete_luminaire 421"
+    },
+    {
+      "prompt": "Solicita el estado de la luminaria setenta y tres.",
+      "command": "status 73"
+    },
+    {
+      "prompt": "Restablece todos los errores en la luminaria noventa y uno.",
+      "command": "reset_errors 91"
+    },
+    {
+      "prompt": "Muestra toda la información sobre la luminaria noventa y seis.",
+      "command": "info 96"
+    },
+    {
+      "prompt": "Borra el test almacenado con ID tres.",
+      "command": "delete_test 3"
+    },
+    {
+      "prompt": "Configura la luminaria ocho para que permanezca apagada permanentemente.",
+      "command": "permanent_off 8"
+    },
+    {
+      "prompt": "Deshabilita el estado permanente para la luminaria cincuenta y uno.",
+      "command": "permanent_off 51"
+    },
+    {
+      "prompt": "Comprueba el estado del servicio de luminarias.",
+      "command": "zwp"
+    },
+    {
+      "prompt": "Desactiva la adición de nuevas luminarias al sistema.",
+      "command": "disable_provisioning"
+    },
+    {
+      "prompt": "Permite el aprovisionamiento del sistema.",
+      "command": "enable_provisioning"
+    },
+    {
+      "prompt": "Devuelve la tercera instancia para el test con ID cinco.",
+      "command": "get_test_instance 5 3"
+    },
+    {
+      "prompt": "Empecemos de nuevo purgando todas las luminarias.",
+      "command": "purge_luminaires"
+    },
+    {
+      "prompt": "Actualiza un test llamado laboratorio con ID uno y el tipo light para el dos de julio de dos mil veintiséis a las once AM hora local que se repita cada veinte días sin activarlo todavía y solo elimina los grupos dos y cinco.",
+      "command": "update_test 1 laboratorio 2026-07-02T11:00:00Z 20 light false . . . 2,5"
+    },
+    {
+      "prompt": "Muestra todos los comandos que puedo ejecutar.",
+      "command": "help"
+    },
+    {
+      "prompt": "Necesito ayuda para ver cómo añadir un grupo.",
+      "command": "help add_group"
+    },
+    {
+      "prompt": "Crea un test denominado piloto con el tipo light manteniéndolo desactivado y comenzando el uno de enero de dos mil veintiséis a las siete AM hora local que se repita cada cinco días para las luminarias dos y cinco y el grupo siete.",
+      "command": "add_test piloto 2026-01-01T07:00:00Z 5 light false 2,5 7"
+    },
+    {
+      "prompt": "Borra la luminaria identificada como setecientos setenta y siete.",
+      "command": "delete_luminaire 777"
+    },
+    {
+      "prompt": "Muestra la dirección de cada luminaria.",
+      "command": "get_luminaires"
+    },
+    {
+      "prompt": "Finaliza el test de funcionamiento de la luminaria treinta.",
+      "command": "stop_functional_test 30"
+    },
+    {
+      "prompt": "Pon la luminaria cuarenta en modo de funcionamiento permanente.",
+      "command": "permanent_on 40"
+    },
+    {
+      "prompt": "Activa diagnósticos periódicos con intervalos de trescientos segundos.",
+      "command": "set_diagnostics 300"
+    },
+    {
+      "prompt": "Desactiva la seguridad aumentada en la luminaria nueve.",
+      "command": "augmented_off 9"
+    },
+    {
+      "prompt": "Ajusta la luminaria diez a un valor de luminosidad del setenta por ciento.",
+      "command": "set_brightness 10 70"
+    },
+    {
+      "prompt": "Muestra el grupo catorce.",
+      "command": "get_group 14"
+    },
+    {
+      "prompt": "En la luminaria ocho reduce el brillo al diez por ciento.",
+      "command": "set_brightness 8 10"
+    },
+    {
+      "prompt": "Anula el test de autonomía de la luminaria cincuenta y cuatro.",
+      "command": "stop_autonomy_test 54"
+    },
+    {
+      "prompt": "Habilita la visualización de la flecha izquierda en la luminaria veintisiete.",
+      "command": "set_pictogram 27 3"
+    },
+    {
+      "prompt": "Ejecuta la configuración de sink.",
+      "command": "config_sink"
+    },
+    {
+      "prompt": "Inicia el test de autonomía de la luminaria diez con una duración de noventa segundos.",
+      "command": "start_autonomy_test 10 90"
+    },
+    {
+      "prompt": "Obtén información sobre el test de batería con ID dos.",
+      "command": "get_test 2"
+    },
+    {
+      "prompt": "Lista todos los grupos multicast presentes en el sistema.",
+      "command": "get_groups"
+    },
+    {
+      "prompt": "Restablece el gráfico de malla para todas las luminarias.",
+      "command": "reset_mesh"
+    },
+    {
+      "prompt": "Elimina la quinta ejecución del test veinte.",
+      "command": "delete_test 20 5"
+    },
+    {
+      "prompt": "Elimina la tercera instancia del test cuyo ID es diez.",
+      "command": "delete_test 10 3"
+    },
+    {
+      "prompt": "Desactiva la seguridad aumentada para luminaria sesenta y dos.",
+      "command": "augmented_off 62"
+    },
+    {
+      "prompt": "Actualiza un test llamado piloto cuyo ID es ocho, el tipo autonomy y activa la prueba inmediatamente para el uno de mayo de dos mil veinticinco a las nueve AM hora local sin repetición y añade las luminarias de la treinta a la cuarenta y el grupo uno.",
+      "command": "update_test 8 piloto 2025-05-01T09:00:00Z 0 autonomy true 30-40 . 1 ."
+    },
+    {
+      "prompt": "Lista todos los grupos de multidifusión de luminarias.",
+      "command": "get_groups"
+    }
+]

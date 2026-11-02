@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch and model checkpoints (exceed GitHub 100MB limit)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Data archives (raw extracted JSON data in data/ is tracked)
+*.zip
+*.tar.gz
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Logs and cache
+*.log
+.cache/
+.pytest_cache/

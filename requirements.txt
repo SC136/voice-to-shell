@@ -1,0 +1,9 @@
+torch>=2.0.0
+transformers>=4.36.0
+gradio>=4.0.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+psutil>=5.9.0
+soundfile>=0.12.0
+pypdf>=4.0.0
+pymupdf>=1.24.0

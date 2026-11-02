@@ -1,0 +1,1066 @@
+[
+  {
+    "prompt": "Elimina el contenedor llamado api.",
+    "command": "docker rm api"
+  },
+  {
+    "prompt": "Elimina forzosamente el contenedor registro tras negarse a detenerse.",
+    "command": "docker rm -f registro"
+  },
+  {
+    "prompt": "Muestra el estado del sistema docker en formato json.",
+    "command": "docker info --format 'json'"
+  },
+  {
+    "prompt": "Crea un constructor denominado montaje.",
+    "command": "docker buildx create --name montaje"
+  },
+  {
+    "prompt": "Configura el contenedor apache para reiniciarse salvo que se detenga manualmente.",
+    "command": "docker update --restart=unless-stopped apache"
+  },
+  {
+    "prompt": "Finaliza el contenedor ubuntu enviándole la señal SIGTERM.",
+    "command": "docker kill -s SIGTERM ubuntu"
+  },
+  {
+    "prompt": "Lista solo las imágenes sin etiqueta de este entorno.",
+    "command": "docker images -f dangling=true"
+  },
+  {
+    "prompt": "Genera la clave de firma llamada ubuntu.",
+    "command": "docker trust key generate ubuntu"
+  },
+  {
+    "prompt": "Obtén información detallada del contenedor temperatura.",
+    "command": "docker inspect --type container temperatura"
+  },
+  {
+    "prompt": "Revoca la confianza de la imagen de python con la versión tres punto nueve.",
+    "command": "docker trust revoke python:3.9"
+  },
+  {
+    "prompt": "Abre una shell bash interactiva en el servicio temperatura definido en Compose.",
+    "command": "docker compose exec temperatura bash"
+  },
+  {
+    "prompt": "Examina la imagen de grafana para ver su configuración",
+    "command": "docker inspect --type image grafana/grafana"
+  },
+  {
+    "prompt": "Exporta el sistema de archivos del contenedor alarma a un archivo tar.",
+    "command": "docker export -o alarma.tar alarma"
+  },
+  {
+    "prompt": "Inspecciona los puertos que utiliza el contenedor data.",
+    "command": "docker port data"
+  },
+  {
+    "prompt": "Inspecciona la imagen telegraf con la etiqueta latest para ver la información de firma y las claves de confianza.",
+    "command": "docker trust inspect telegraf:latest"
+  },
+  {
+    "prompt": "Muestra solo los eventos del contenedor ubuntu.",
+    "command": "docker events --filter container=ubuntu"
+  },
+  {
+    "prompt": "Arranca el contenedor modem en una terminal interactiva.",
+    "command": "docker start -i modem"
+  },
+  {
+    "prompt": "Detén el contenedor redis con la señal SIGINT.",
+    "command": "docker stop -s SIGINT redis"
+  },
+  {
+    "prompt": "Inspecciona el espacio utilizado por el contenedor python.",
+    "command": "docker inspect -s python"
+  },
+  {
+    "prompt": "Comprueba qué versión de docker está instalada.",
+    "command": "docker version"
+  },
+  {
+    "prompt": "Elimina la caché de compilación.",
+    "command": "docker buildx prune"
+  },
+  {
+    "prompt": "Muestra el historial de la imagen oficial de python en formato JSON.",
+    "command": "docker history --format 'json' python:3.10"
+  },
+  {
+    "prompt": "Muestra la versión actual del comando docker en formato JSON.",
+    "command": "docker version --format 'json'"
+  },
+  {
+    "prompt": "Lista todos los contenedores.",
+    "command": "docker ps -a"
+  },
+  {
+    "prompt": "Renombra el contenedor nodo como registro.",
+    "command": "docker rename nodo registro"
+  },
+  {
+    "prompt": "Inspecciona la imagen de grafana con la etiqueta latest para ver información de claves y firma.",
+    "command": "docker trust inspect grafana/grafana:latest"
+  },
+  {
+    "prompt": "Muestra solo dos referencias que coincidan con la imagen sensor.",
+    "command": "docker search --limit 2 sensor"
+  },
+  {
+    "prompt": "Publica el manifiesto de la imagen entorno con la etiqueta latest.",
+    "command": "docker manifest push entorno:latest"
+  },
+  {
+    "prompt": "Imprime los detalles de los volúmenes estado, sistema y perfil.",
+    "command": "docker volume inspect estado sistema perfil"
+  },
+  {
+    "prompt": "Añade a wendy como firmante de la carpeta red dentro del repositorio data usando su clave pública.",
+    "command": "docker trust signer add --key wendy.pub wendy data/red"
+  },
+  {
+    "prompt": "Actualiza el contenedor pasarela a dos punto cinco CPUs.",
+    "command": "docker update --cpus=2.5 pasarela"
+  },
+  {
+    "prompt": "Muestra estadísticas de recursos para todos los contenedores.",
+    "command": "docker stats -a"
+  },
+  {
+    "prompt": "Busca solo imágenes oficiales de python.",
+    "command": "docker search -f is-official=true python"
+  },
+  {
+    "prompt": "Consulta qué ha cambiado en el contenedor centos.",
+    "command": "docker diff centos"
+  },
+  {
+    "prompt": "Genera un vólumen llamado historial.",
+    "command": "docker volume create historial"
+  },
+  {
+    "prompt": "Descarga todas las etiquetas de la imagen curl.",
+    "command": "docker pull -a curlimages/curl"
+  },
+  {
+    "prompt": "Copia la carpeta data dentro del directorio sensor desde el contenedor lectura conservando la propiedad de archivos.",
+    "command": "docker cp -a lectura:/sensor/data lectura"
+  },
+  {
+    "prompt": "Compila la imagen usando un token llamado sistema desde la carpeta de secretos del sistema.",
+    "command": "docker build --secret id=sistema,src=/etc/secrets/sistema ."
+  },
+  {
+    "prompt": "Inicializa un constructor llamado montaje.",
+    "command": "docker buildx create --name montaje"
+  },
+  {
+    "prompt": "Carga el archivo tar denominado servicios como imagen de docker.",
+    "command": "docker load -i servicios.tar"
+  },
+  {
+    "prompt": "Aplica la etiqueta con versión uno punto uno al contenedor control a partir de la imagen actual marcada como latest",
+    "command": "docker tag cloud:latest cloud:1.1"
+  },
+  {
+    "prompt": "Genera una nueva clave de firmante llamada dispositivo.",
+    "command": "docker trust key generate dispositivo"
+  },
+  {
+    "prompt": "Sigue la salida de registros de servicios para comprobar si se reinicia cuando falla.",
+    "command": "docker compose logs -f"
+  },
+  {
+    "prompt": "Limita la salida de eventos al contenedor python.",
+    "command": "docker events --filter container=python"
+  },
+  {
+    "prompt": "Genera la imagen denominada entorno y súbela con la etiqueta uno punto zero al repositorio docker.",
+    "command": "docker build --push -t docker/entorno:1.0 ."
+  },
+  {
+    "prompt": "Desactiva el plugin alarma.",
+    "command": "docker plugin disable alarma"
+  },
+  {
+    "prompt": "Sigue en vivo los registros de servicios y comprueba si se reinicia tras un fallo.",
+    "command": "docker compose logs -f"
+  },
+  {
+    "prompt": "Importa el archivo de tipo tar llamado microservicios sin mostrar salida.",
+    "command": "docker load -q --input microservicios.tar"
+  },
+  {
+    "prompt": "Inspecciona el manifiesto llamado actuador con la etiqueta latest.",
+    "command": "docker manifest inspect actuador:latest"
+  },
+  {
+    "prompt": "Busca imágenes redis y muéstralas en formato JSON.",
+    "command": "docker search redis --format 'json'"
+  },
+  {
+    "prompt": "Ejecuta el contenedor puente en segundo plano y muestra su identificador.",
+    "command": "docker run -d puente"
+  },
+  {
+    "prompt": "Abre una terminal en el contenedor nodo como el usuario invitado.",
+    "command": "docker exec -u inivitado -it nodo bash"
+  },
+  {
+    "prompt": "Busca imágenes llamadas debian y muéstralas en formato JSON.",
+    "command": "docker search debian --format 'json'"
+  },
+  {
+    "prompt": "Muestra cuánto espacio en disco usa el contenedor ubuntu.",
+    "command": "docker inspect -s ubuntu"
+  },
+  {
+    "prompt": "Busca imágenes de centos que sean oficiales.",
+    "command": "docker search -f is-official=true centos"
+  },
+  {
+    "prompt": "Muestra todas las imágenes de docker en formato json.",
+    "command": "docker images --format 'json'"
+  },
+  {
+    "prompt": "Monitoriza en tiempo real los eventos de docker.",
+    "command": "docker system events"
+  },
+  {
+    "prompt": "Abre una terminal interactiva en el contenedor broker que está en ejecución.",
+    "command": "docker exec -it broker bash"
+  },
+  {
+    "prompt": "Envía la imagen de la base de datos mongo sin mostrar barras de progreso.",
+    "command": "docker push -q mongodb:6.0"
+  },
+  {
+    "prompt": "Crea una red docker llamada puente.",
+    "command": "docker network create puente"
+  },
+  {
+    "prompt": "Crea una red llamada enlace.",
+    "command": "docker network create enlace"
+  },
+  {
+    "prompt": "Crea un contenedor a partir de la imagen de busy box que se reinicie al fallar.",
+    "command": "docker create --restart=on-failure busybox"
+  },
+  {
+    "prompt": "Especifica la versión siete de ARM, configurando el sistema operativo como Linux, la arquitectura como ARM y la variante como versión siete, para anotar el manifiesto llamado dispositivo con la etiqueta latest de la imagen humedad.",
+    "command": "docker manifest annotate dispositivo:latest humedad:armv7 --os linux --arch arm --variant v7"
+  },
+  {
+    "prompt": "Muestra la información del sistema docker.",
+    "command": "docker info"
+  },
+  {
+    "prompt": "Lanza un contenedor redis en arquitectura ARM sesenta y cuatro.",
+    "command": "docker run --platform=linux/arm64 redis"
+  },
+  {
+    "prompt": "Publica el manifiesto hogar con la versión dos punto cinco en docker hub.",
+    "command": "docker manifest push boards:2.5"
+  },
+  {
+    "prompt": "Carga el archivo nodo del tipo tar como imagen para sistemas AMD sesenta y cuatro.",
+    "command": "docker load --platform=linux/amd64 --input nodo.tar"
+  },
+  {
+    "prompt": "Reinicia el contenedor mensaje con un tiempo de espera de quince segundos.",
+    "command": "docker restart -t 15 mensaje"
+  },
+  {
+    "prompt": "Obtén la información del sistema docker en formato JSON.",
+    "command": "docker info --format 'json'"
+  },
+  {
+    "prompt": "Despliega el contenedor ble en segundo plano y muestra su identificador.",
+    "command": "docker run -d ble"
+  },
+  {
+    "prompt": "Desconecta el contenedor cisco de la red puente.",
+    "command": "docker network disconnect puente cisco"
+  },
+  {
+    "prompt": "Ejecuta el contenedor python y configúralo para reiniciarse si falla hasta cuatro veces.",
+    "command": "docker run --restart=on-failure:4 python"
+  },
+  {
+    "prompt": "Elimina la imagen redis pero sin borrar las capas ascendentes sin etiqueta.",
+    "command": "docker rmi --no-prune redis"
+  },
+  {
+    "prompt": "Guarda la imagen ubuntu con la etiqueta latest para sistemas tres ochenta y seis en un archivo tar llamado ubuntu.",
+    "command": "docker save --platform=linux/386 -o ubuntu.tar ubuntu:latest"
+  },
+  {
+    "prompt": "Sube al registro todas las imágenes de los servicios definidos en compose.",
+    "command": "docker compose push"
+  },
+  {
+    "prompt": "Elimina los volúmenes de docker que no se utilizan.",
+    "command": "docker volume prune"
+  },
+  {
+    "prompt": "Muestra la información del sistema docker.",
+    "command": "docker info"
+  },
+  {
+    "prompt": "Adjunta al contenedor sensor en ejecución y desvincúlalo con control y z.",
+    "command": "docker attach --detach-keys='ctrl-z' sensor"
+  },    
+  {
+    "prompt": "Cierra la sesión de docker.",
+    "command": "docker logout"
+  },
+  {
+    "prompt": "Imprime la versión de docker.",
+    "command": "docker version"
+  },
+  {
+    "prompt": "Vuelve a iniciar el contenedor ubuntu.",
+    "command": "docker start ubuntu"
+  },
+  {
+    "prompt": "Activa el plugin ping.",
+    "command": "docker plugin enable ping"
+  },
+  {
+    "prompt": "Elimina la instancia del constructor llamada despliegue.",
+    "command": "docker buildx rm despliegue"
+  },
+  {
+    "prompt": "Activa el contenedor seguridad con salida en vivo.",
+    "command": "docker start -a seguridad"
+  },
+  {
+    "prompt": "Elimina el plugin debug.",
+    "command": "docker plugin rm debug"
+  },
+  {
+    "prompt": "Borra la imagen de home assistant pero sin podar las imágenes relacionadas.",
+    "command": "docker rmi --no-prune homeassistant/home-assistant"
+  },
+  {
+    "prompt": "Inicia sesión en docker.",
+    "command": "docker login"
+  },
+  {
+    "prompt": "Revoca la confianza de la imagen apache kafka con la versión cuatro punto cero punto cero.",
+    "command": "docker trust revoke apache/kafka:4.0.0"
+  },
+  {
+    "prompt": "Conecta el contenedor azure a la red malla.",
+    "command": "docker network connect malla azure"
+  },
+  {
+    "prompt": "Crea un contenedor con la imagen de grafana que siempre se reinicie.",
+    "command": "docker create --restart=always grafana/grafana"
+  },
+  {
+    "prompt": "Configura el servicio llamado red en cinco contenedores.",
+    "command": "docker compose scale red=5"
+  },
+  {
+    "prompt": "Publica la imagen oficial de Ubuntu para ARM versión siete.",
+    "command": "docker push --platform linux/arm/v7 ubuntu:22.04"
+  },
+  {
+    "prompt": "Crea un volumen llamado sistema.",
+    "command": "docker volume create sistema"
+  },
+  {
+    "prompt": "Detén el contenedor llamado seguridad.",
+    "command": "docker stop seguridad"
+  },
+  {
+    "prompt": "Muestra el token para unirse como manager al swarm.",
+    "command": "docker swarm join-token manager"
+  },
+  {
+    "prompt": "Consulta la dirección IP vinculada al contenedor python.",
+    "command": "docker inspect -f {{.NetworkSettings.IPAddress}} python"
+  },
+  {
+    "prompt": "Publica la imagen eclipse kura con confianza en el contenido habilitado.",
+    "command": "docker push --disable-content-trust=false eclipse/kura"
+  },
+  {
+    "prompt": "Crea un contenedor a partir de la imagen busy box con cero coma seis CPUs y doscientos cincuenta y seis megabytes de memoria.",
+    "command": "docker create --cpus 0.6 --memory 256m busybox"
+  },
+  {
+    "prompt": "Crea e inicia un nuevo contenedor ubuntu llamado sensor y abre una terminal.",
+    "command": "docker run -it --name sensor ubuntu bash"
+  },
+  {
+    "prompt": "Cambia al constructor datos.",
+    "command": "docker buildx use datos"
+  },
+  {
+    "prompt": "Elimina forzosamente la imagen de curl.",
+    "command": "docker rmi -f curlimages/curl"
+  },
+  {
+    "prompt": "Guarda el contenedor sensor como sensor con la versión dos punto cinco sin pausarlo.",
+    "command": "docker commit --pause=false sensor sensor:2.5"
+  },
+  {
+    "prompt": "Congela el contenedor debian.",
+    "command": "docker pause debian"
+  },
+  {
+    "prompt": "Lista todas las instancias del constructor.",
+    "command": "docker buildx ls"
+  },
+  {
+    "prompt": "Desactiva las estadísticas en tiempo real una sola vez para el contenedor analiticas.",
+    "command": "docker stats --no-stream analiticas"
+  },
+  {
+    "prompt": "Fuerza la salida del contenedor python con una señal kill.",
+    "command": "docker kill -s SIGKILL python"
+  },
+  {
+    "prompt": "Publica todas las imágenes de servicio definidas en docker compose.",
+    "command": "docker compose push"
+  },
+  {
+    "prompt": "Publica la imagen del servidor apache para sistemas ARM sesenta y cuatro.",
+    "command": "docker push --platform linux/arm64 httpd"
+  },
+  {
+    "prompt": "Inicia los contenedores detenidos llamados camera y sensor.",
+    "command": "docker start camera sensor"
+  },
+  {
+    "prompt": "Inicia sesión en docker.",
+    "command": "docker login"
+  },
+  {
+    "prompt": "Arranca el contenedor camera en modo interactivo.",
+    "command": "docker start -i camera"
+  },
+  {
+    "prompt": "Escala el servicio sensor a un contenedor.",
+    "command": "docker compose scale sensor=1"
+  },
+  {
+    "prompt": "Muestra todos los procesos en ejecución en el contenedor grafana.",
+    "command": "docker top grafana"
+  },
+  {
+    "prompt": "Descarga todas las etiquetas de la imagen centos.",
+    "command": "docker pull -a centos"
+  },
+  {
+    "prompt": "Guarda el contenedor servicios como una imagen etiquetada como latest.",
+    "command": "docker commit servicios servicios:latest"
+  },
+  {
+    "prompt": "Registra a jhon como firmante de la carpeta lora dentro del repositorio dispositivos usando su clave pública.",
+    "command": "docker trust signer add --key jhon.pub jhon dispositivos/lora"
+  },
+  {
+    "prompt": "Consulta el uso de disco por parte de docker.",
+    "command": "docker system df"
+  },
+  {
+    "prompt": "Cierra la sesión en docker.",
+    "command": "docker logout"
+  },
+  {
+    "prompt": "Guarda analiticas con la versión uno punto cero y nodo con la versión uno punto uno en un archivo tar llamado gerente.",
+    "command": "docker save -o gerente.tar analiticas:1.0 nodo:1.1"
+  },
+  {
+    "prompt": "Crea el manifiesto privado con la versión uno punto cero a partir de las imágenes broker para ARM versión siete.",
+    "command": "docker manifest create privado:1.0 broker:armv7"
+  },
+  {
+    "prompt": "Crea un archivo tar llamado datos a partir de medidas con la versión dos punto uno y nodos con la versión dos punto dos para ARM versión siete.",
+    "command": "docker save --platform=linux/arm/v7 -o datos.tar medidas:2.1 nodos:2.2"
+  },
+  {
+    "prompt": "Ejecuta el script data en la carpeta home del contenedor sensor como un proceso en segundo plano.",
+    "command": "docker exec -d sensor /bin/bash /home/data.sh"
+  },
+  {
+    "prompt": "Transfiere la carpeta data dentro del directorio home desde el contenedor sensor a la máquina local sensor preservando los UID y GID.",
+    "command": "docker cp -a sensor:/home/data sensor"
+  },
+  {
+    "prompt": "Inicia un contenedor redis llamado cache mapeando la carpeta redis ubicada en data del anfitrión a la carpeta data del contenedor.",
+    "command": "docker run -v /data/redis:/data --name cache redis"
+  },
+  {
+    "prompt": "Compila el contenedor usando las credenciales del teclado desde el archivo secreto del usuario.",
+    "command": "docker build --secret id=teclado,src=/home/user/.secrets/teclado ."
+  },
+  {
+    "prompt": "Inicia el contenedor ubuntu y muestra la salida en vivo.",
+    "command": "docker start -a ubuntu"
+  },
+  {
+    "prompt": "Muestra los registros del contenedor mongo de las últimas dos horas.",
+    "command": "docker logs --since=2h mongo"
+  },
+  {
+    "prompt": "Inicializa el contexto denominado seguridad.",
+    "command": "docker context create seguridad"
+  },
+  {
+    "prompt": "Visualiza los registros del contenedor ubuntu de los últimos diez minutos.",
+    "command": "docker logs --since=10m ubuntu"
+  },
+  {
+    "prompt": "Elimina todos los datos no usados en docker.",
+    "command": "docker system prune"
+  },
+  {
+    "prompt": "Arranca la imagen centos y publica el puerto veintidós para acceso web básico.",
+    "command": "docker run -p 22:22 centos"
+  },
+  {
+    "prompt": "Configura el contenedor ubuntu para que use solo una CPU.",
+    "command": "docker update --cpus=1 ubuntu"
+  },
+  {
+    "prompt": "Crea una imagen a partir del contenedor gerente con la versión uno punto cero sin pausarlo durante el commit.",
+    "command": "docker commit --pause=false gerente gerente:1.0"
+  },
+  {
+    "prompt": "Guarda el contexto seguridad en un archivo empaquetado llamado seguridad.",
+    "command": "docker context export seguridad seguridad.tar"
+  },
+  {
+    "prompt": "Despliega todos los servicios de compose en segundo plano.",
+    "command": "docker compose up -d"
+  },
+  {
+    "prompt": "Modifica el contenedor eclipse asignándole quinientos megabytes de memoria.",
+    "command": "docker update -m 500m eclipse"
+  },
+  {
+    "prompt": "Espera hasta que los contenedores kafka y balena se detengan.",
+    "command": "docker wait kafka balena"
+  },
+  {
+    "prompt": "Obtén el token para que un nodo worker se una al swarm.",
+    "command": "docker swarm join-token worker"
+  },
+  {
+    "prompt": "Compila el conjunto predeterminado de imágenes IoT.",
+    "command": "docker buildx bake"
+  },
+  {
+    "prompt": "Muestra las estadísticas de los contenedores nodos y data sin que sea en tiempo real.",
+    "command": "docker stats --no-stream nodos data"
+  },
+  {
+    "prompt": "Muestra los logs del contenedor ubuntu con marcas de tiempo.",
+    "command": "docker logs -t ubuntu"
+  },
+  {
+    "prompt": "Importa el archivo empaquetado python en docker.",
+    "command": "docker load -i python.tar"
+  },
+  {
+    "prompt": "Inspecciona el plugin llamado debug.",
+    "command": "docker plugin inspect debug"
+  },
+  {
+    "prompt": "Inicia una compilación de imagen limpia sin usar capas en caché.",
+    "command": "docker build --no-cache ."
+  },
+  {
+    "prompt": "Devuelve un listado completo de imágenes.",
+    "command": "docker images -a"
+  },
+  {
+    "prompt": "Crea la etiqueta con la versión cuatro punto nueve para el contenedor host a partir de la imagen actual marcada como latest.",
+    "command": "docker tag host:latest host:4.9"
+  },
+  {
+    "prompt": "Carga el archivo empaquetado perfil sin mostrar salida.",
+    "command": "docker load -q --input perfil.tar"
+  },
+  {
+    "prompt": "Asigna el nuevo nombre almacen al contenedor copia.",
+    "command": "docker rename copia almacen"
+  },
+  {
+    "prompt": "Crea un contexto llamado sensor.",
+    "command": "docker context create sensor"
+  },
+  {
+    "prompt": "Comprueba los cambios de archivos en el contenedor python.",
+    "command": "docker diff python"
+  },
+  {
+    "prompt": "Supervisa en tiempo real los eventos del sistema docker.",
+    "command": "docker system events"
+  },
+  {
+    "prompt": "Espera hasta que finalicen los contenedores python, ubuntu y apache.",
+    "command": "docker wait python ubuntu apache"
+  },
+  {
+    "prompt": "Muestra la ayuda de docker.",
+    "command": "docker"
+  },
+  {
+    "prompt": "Autentícate usando el nombre de usuario sensor.",
+    "command": "docker login -u sensor"
+  },
+  {
+    "prompt": "Inicia un nuevo clúster de Docker Swarm.",
+    "command": "docker swarm init"
+  },
+  {
+    "prompt": "Descarga la imagen de la base de datos de mongo sin mostrar progreso.",
+    "command": "docker pull -q mongodb:6.0"
+  },
+  {
+    "prompt": "Importa el contexto seguro desde el archivo seguridad.tar.",
+    "command": "docker context import seguro seguridad.tar"
+  },
+  {
+    "prompt": "Crea la imagen app y etiquétala con la versión uno punto cero.",
+    "command": "docker build -t app:1.0 ."
+  },
+  {
+    "prompt": "Devuelve solo los identificadores de contenedores.",
+    "command": "docker ps -q"
+  },
+  {
+    "prompt": "Copia la carpeta scripts dentro de home desde el contenedor nodos sin mostrar la salida.",
+    "command": "docker cp -q nodos:/home/scripts nodos"
+  },
+  {
+    "prompt": "Muestra los datos de capas de la imagen home assistant en formato JSON.",
+    "command": "docker history --format 'json' homeassistant/home-assistant"
+  },
+  {
+    "prompt": "Publica todas las etiquetas de la imagen centos en el registro.",
+    "command": "docker push -a centos"
+  },
+  {
+    "prompt": "Envía la señal SIGQUIT para detener el contenedor centos.",
+    "command": "docker stop -s SIGQUIT centos"
+  },
+  {
+    "prompt": "Compila la imagen de contenedor debian con la etiqueta latest.",
+    "command": "docker build -t debian:latest ."
+  },
+  {
+    "prompt": "Crea una imagen llamada data a partir del contenedor iot.",
+    "command": "docker commit iot data"
+  },
+  {
+    "prompt": "Envía la imagen oficial ubuntu versión veintidós punto cero cuatro al registro en modo silencioso.",
+    "command": "docker push -q ubuntu:22.04"
+  },
+  {
+    "prompt": "Muéstrame la lista de instancias del constructor.",
+    "command": "docker buildx ls"
+  },
+  {
+    "prompt": "Elimina el contenedor sensor y sus volúmenes.",
+    "command": "docker rm -v sensor"
+  },
+  {
+    "prompt": "Lista los contenedores con estado corriendo.",
+    "command": "docker ps -f status=running"
+  },
+  {
+    "prompt": "Elimina los plugins ping y serial.",
+    "command": "docker plugin rm ping serial"
+  },
+  {
+    "prompt": "Activa la instancia delconsctructor llamada pasarela.",
+    "command": "docker buildx use pasarela"
+  },
+  {
+    "prompt": "Elimina el contenedor ubuntu junto con sus volúmenes.",
+    "command": "docker rm -v ubuntu"
+  },
+  {
+    "prompt": "Compila la imagen llamada sistema y publícala con la etiqueta latest en el directorio data.",
+    "command": "docker build --push -t data/sistema:latest ."
+  },
+  {
+    "prompt": "Combina seguridad para ARM versión siete y seguridad para AMD sesenta y cuatro en un manifiesto llamado seguridad con la etiqueta latest.",
+    "command": "docker manifest create seguridad:latest seguridad:armv7 seguridad:amd64"
+  },
+  {
+    "prompt": "Muestra los eventos de Docker en formato JSON.",
+    "command": "docker events --format 'json'"
+  },
+  {
+    "prompt": "Inicia la configuración de contenedores en docker compose.",
+    "command": "docker compose up -d"
+  },
+  {
+    "prompt": "Muestra los detalles de los plugins llamados camera, pantalla y voz.",
+    "command": "docker plugin inspect camera pantalla voz"
+  },
+  {
+    "prompt": "Lanza el script backup ubicado en el directorio app del contenedor data sin bloquear la consola.",
+    "command": "docker exec -d data /bin/bash /app/backup.sh"
+  },
+  {
+    "prompt": "Despliega un contenedor kura llamado nodo con la imagen kura y enlaza la carpeta data ubicada en el repositorio kura del anfitrión a la carpeta almacen.",
+    "command": "docker run -v /data/kura:/almacen --name nodo kura"
+  },
+  {
+    "prompt": "Mata el contenedor python.",
+    "command": "docker kill python"
+  },
+  {
+    "prompt": "Compila la imagen docker en el directorio actual sin utilizar la caché.",
+    "command": "docker build --no-cache ."
+  },
+  {
+    "prompt": "Elimina de inmediato el contenedor ubuntu de forma forzosa.",
+    "command": "docker rm -f ubuntu"
+  },
+  {
+    "prompt": "Pausa los contenedores centos y ubuntu.",
+    "command": "docker pause centos ubuntu"
+  },
+  {
+    "prompt": "Limpia los volúmenes de docker que no se utilizan.",
+    "command": "docker volume prune"
+  },
+  {
+    "prompt": "Descarga el plugin distancia.",
+    "command": "docker plugin install distancia"
+  },
+  {
+    "prompt": "Descarga la imagen de eclipse kura en modo silencioso.",
+    "command": "docker pull -q eclipse/kura"
+  },
+  {
+    "prompt": "Aplica una firma a la imagen telegraf con la versión uno punto treinta y cinco punto cero.",
+    "command": "docker trust sign telegraf:1.35.0"
+  },
+  {
+    "prompt": "Empaqueta la imagen ubuntu con la etiqueta latest en un archivo tar con el mismo nombre.",
+    "command": "docker save -o ubuntu.tar ubuntu:latest"
+  },
+  {
+    "prompt": "Inicia un contenedor desde la imagen oficial de ubuntu con dos gigabytes de memoria y una.",
+    "command": "docker run -m 2g --cpus 1 ubuntu:22.04"
+  },
+  {
+    "prompt": "Elimina la instancia del constructor llamado reporter.",
+    "command": "docker buildx rm reporter"
+  },
+  {
+    "prompt": "Revela cómo se construyó la imagen home assistant.",
+    "command": "docker history homeassistant/home-assistant"
+  },
+  {
+    "prompt": "Configura este sistema como swarm gerente.",
+    "command": "docker swarm init"
+  },
+  {
+    "prompt": "Desconecta el contenedor humedad de la red sensor.",
+    "command": "docker network disconnect sensor humedad"
+  },
+  {
+    "prompt": "Muestra la información del vólumen llamado seguridad.",
+    "command": "docker volume inspect seguridad"
+  },
+  {
+    "prompt": "Actualiza el contenedor alarma asignándole uno punto tres gigabytes de memoria.",
+    "command": "docker update -m 1.3g alarma"
+  },
+  {
+    "prompt": "Detén el contenedor redis.",
+    "command": "docker stop redis"
+  },
+  {
+    "prompt": "Muestra los contenedores con su tamaño.",
+    "command": "docker ps -s"
+  },
+  {
+    "prompt": "Ejecuta una terminal con el nuevo contenedor server usando la imagen telegraf..",
+    "command": "docker run -it --name server telegraf bash"
+  },
+  {
+    "prompt": "Publica la imagen de apache kafka con confianza en los contenidos de docker activado.",
+    "command": "docker push --disable-content-trust=false apache/kafka"
+  },
+  {
+    "prompt": "Lanza la imagen de amazon linux y mapea el puerto ochenta para alojar un servicio web.",
+    "command": "docker run -p 80:80 amazonlinux"
+  },
+  {
+    "prompt": "Confía y certifica la imagen de home assitant con la etiqueta latest.",
+    "command": "docker trust sign homeassistant/home-assistant:latest"
+  },
+  {
+    "prompt": "Ejecuta el contenedor oficial de python en arquitectura AMD sesenta y cuatro.",
+    "command": "docker run --platform=linux/amd64 python:3.10"
+  },
+  {
+    "prompt": "Obtén la imagen de la base de datos de timescale para la plataforma ARM versión siete.",
+    "command": "docker pull --platform linux/arm/v7 timescale/timescaledb"
+  },
+  {
+    "prompt": "Muestra los eventos de Docker en formato JSON.",
+    "command": "docker events --format 'json'"
+  },
+  {
+    "prompt": "Comprueba qué imágenes no tienen etiqueta.",
+    "command": "docker images -f dangling=true"
+  },
+  {
+    "prompt": "Descarga la imagen de grafana agent y verifica su firma.",
+    "command": "docker pull --disable-content-trust=false grafana/agent"
+  },
+  {
+    "prompt": "Elimina los contenedores python y ubuntu.",
+    "command": "docker rm python ubuntu"
+  },
+  {
+    "prompt": "Importa el archivo empaquetado nodos para hardware Linux ARM sesenta y cuatro.",
+    "command": "docker load --platform=linux/arm64 --input nodos.tar"
+  },
+  {
+    "prompt": "Suestra los contenedores que tengan broker en su nombre y estén en ejecución.",
+    "command": "docker ps -f name=broker -f status=running"
+  },
+  {
+    "prompt": "Imprime el tamaño de los contenedores en este entorno.",
+    "command": "docker ps -s"
+  },
+  {
+    "prompt": "Publica todas las etiquetas de la imagen del servidor apache.",
+    "command": "docker push -a httpd"
+  },
+  {
+    "prompt": "Muestra todos los contenedores incluidos los parados.",
+    "command": "docker ps -a"
+  },
+  {
+    "prompt": "Muestra las imágenes de docker en formato json.",
+    "command": "docker images --format 'json'"
+  },
+  {
+    "prompt": "Anota el manifiesto sensor con la versión uno punto cero usando la imagen gerente para ARM versión siete, indicando Linux como sistema operativo, arquitectura ARM y variante siete.",
+    "command": "docker manifest annotate sensor:1.0 gerente:armv7 --os linux --arch arm --variant v7"
+  },
+  {
+    "prompt": "Descarga la imagen curl con la verificación de firma habilitada.",
+    "command": "docker pull --disable-content-trust=false curlimages/curl"
+  },
+  {
+    "prompt": "Obtén la imagen más reciente para el servicio sistema gestionado por docker compose.",
+    "command": "docker compose pull sistema"
+  }, 
+  {
+    "prompt": "Importa el contexto private desde el archivo comprimido.",
+    "command": "docker context import private private.zip"
+  },
+  {
+    "prompt": "Conecta el contenedor captura a la red malla.",
+    "command": "docker network connect malla captura"
+  },
+  {
+    "prompt": "Libera espacio limpiando la caché de compilación.",
+    "command": "docker buildx prune"
+  },
+  {
+    "prompt": "Reanuda los contenedores llamados redis y verne.",
+    "command": "docker unpause verne redis"
+  },
+  {
+    "prompt": "Muestra en un formato fácil de leer el historial de la imagen centos.",
+    "command": "docker history --human centos"
+  },
+  {
+    "prompt": "Descarga todas las imágenes de servicio definidas en el archivo compose.",
+    "command": "docker compose pull"
+  },
+  {
+    "prompt": "Copia la carpeta data dentro del repositorio app desde el contenedor sensor sin mostrar salida.",
+    "command": "docker cp -q sensor:/app/data sensor"
+  },
+  {
+    "prompt": "Conéctate al contenedor medidas en ejecución y usa control e y para desconectarte.",
+    "command": "docker attach --detach-keys='ctrl-y' medidas"
+  },
+  {
+    "prompt": "Dale al contenedor ubuntu cinco segundos para que finalice.",
+    "command": "docker stop -t 5 ubuntu"
+  },
+  {
+    "prompt": "Comprueba cuánto espacio en disco está usando Docker.",
+    "command": "docker system df"
+  },
+  {
+    "prompt": "Abre una terminal en el contenedor lora.",
+    "command": "docker exec -it lora bash"
+  },
+  {
+    "prompt": "Muestra el uso de recursos de todos los contenedores del sistema.",
+    "command": "docker stats -a"
+  },
+  {
+    "prompt": "Busca imágenes de kafka y dame solo cinco resultados.",
+    "command": "docker search --limit 5 kafka"
+  },
+  {
+    "prompt": "Compila una imagen para Linux ARM versión siete.",
+    "command": "docker build --platform linux/arm/v7 ."
+  },
+  {
+    "prompt": "Muestra los identificadores de los contenedores.",
+    "command": "docker ps -q"
+  },
+  {
+    "prompt": "Muestra los tamaños y fechas de la imagen oficial de ubuntu de forma legible.",
+    "command": "docker history --human ubuntu:22.04"
+  },
+  {
+    "prompt": "Muestra todas las imágenes de Docker.",
+    "command": "docker images -a"
+  },
+  {
+    "prompt": "Muestra la ayuda sobre el uso del comando docker.",
+    "command": "docker"
+  },
+  {
+    "prompt": "Inicia sesión en docker usando el nombre de usuario gerente.",
+    "command": "docker login -u gerente"
+  },
+  {
+    "prompt": "Revisa el manifiesto teclado con la versión dos punto cinco.",
+    "command": "docker manifest inspect teclado:2.5"
+  },
+  {
+    "prompt": "Muestra los mapeos de puertos del contenedor python.",
+    "command": "docker port python"
+  },
+  {
+    "prompt": "Abre una terminal en el contenedor contador como el usuario metricas.",
+    "command": "docker exec -u metricas -it contador bash"
+  },
+  {
+    "prompt": "Fuerza la salida del contenedor alpine.",
+    "command": "docker kill alpine"
+  },
+  {
+    "prompt": "Libera espacio limpiando el sistema docker.",
+    "command": "docker system prune"
+  },
+  {
+    "prompt": "Indica si el contenedor humedad está actualmente activo.",
+    "command": "docker inspect -f {{.State.Running}} humedad"
+  },
+  {
+    "prompt": "Lanza un contenedor ubuntu con una política de reinicio siempre.",
+    "command": "docker run --restart=always ubuntu"
+  },
+  {
+    "prompt": "Muestra la información de versión de Docker en formato JSON.",
+    "command": "docker version --format 'json'"
+  },
+  {
+    "prompt": "Consulta la lista de procesos del contenedor ubuntu.",
+    "command": "docker top ubuntu"
+  },
+  {
+    "prompt": "Exporta el contexto private en un archivo comprimido con el mismo nombre.",
+    "command": "docker context export private private.zip"
+  },
+  {
+    "prompt": "Ejecuta un contenedor basado en la imagen oficial de python con un gigabyte de memoria y dos CPU.",
+    "command": "docker run -m 1g --cpus 2 python:3.10"
+  },
+  {
+    "prompt": "Para el contenedor llamado remoto en doce segundos.",
+    "command": "docker stop -t 12 remoto"
+  },
+  {
+    "prompt": "Reinicia el contenedor lote con un tiempo de espera de veinte segundos.",
+    "command": "docker restart -t 20 lote"
+  },
+  {
+    "prompt": "Cambia al contexto sensor.",
+    "command": "docker context use sensor"
+  },
+  {
+    "prompt": "Muestra los registros con marcas de tiempo del contenedor mongo.",
+    "command": "docker logs -t mongo"
+  },
+  {
+    "prompt": "Transmite los registros en vivo del contenedor ubuntu.",
+    "command": "docker logs -f ubuntu"
+  },
+  {
+    "prompt": "Desactiva el plugin vibracion.",
+    "command": "docker plugin disable vibracion"
+  },
+  {
+    "prompt": "Activa el plugin tiempo.",
+    "command": "docker plugin enable tiempo"
+  },
+  {
+    "prompt": "Reanuda el contenedor bus.",
+    "command": "docker unpause bus"
+  },
+  {
+    "prompt": "Elimina forzosamente la imagen oficial de ubuntu.",
+    "command": "docker rmi -f ubuntu:22.04"
+  },
+  {
+    "prompt": "Inspecciona todas las capas de la imagen eclipse mosquitto.",
+    "command": "docker history eclipse-mosquitto"
+  },
+  {
+    "prompt": "Instala el plugin humedad.",
+    "command": "docker plugin install humedad"
+  },
+  {
+    "prompt": "Configura el contenedor procesos para que siempre se reinicie.",
+    "command": "docker update --restart=always procesos"
+  },
+  {
+    "prompt": "Abre una terminal en el servicio lora declarado en el archivo compose.",
+    "command": "docker compose exec lora bash"
+  },
+  {
+    "prompt": "Empaqueta el sistema de archivos del contenedor seguridad en un archivo tar.",
+    "command": "docker export -o seguridad.tar seguridad"
+  },
+  {
+    "prompt": "Apunta Docker al contexto pasarela.",
+    "command": "docker context use pasarela"
+  },
+  {
+    "prompt": "Compila una imagen para sistemas Linux ARM sesenta y cuatro.",
+    "command": "docker build --platform linux/arm64 ."
+  },
+  {
+    "prompt": "Descarga la imagen curl para sistemas RISC V sesenta y cuatro.",
+    "command": "docker pull --platform linux/riscv64 curlimages/curl"
+  },
+  {
+    "prompt": "Observa en tiempo real los registros de mongo.",
+    "command": "docker logs -f mongo"
+  },
+  {
+    "prompt": "Ejecuta la compilación de todas las imágenes IoT del grupo predeterminado.",
+    "command": "docker buildx bake"
+  },
+  {
+    "prompt": "Crea un contenedor con la imagen oficial de Python asignándole dos CPU y un gigabyte de memoria.",
+    "command": "docker create --cpus 2 --memory 1g python:3.10"
+  }
+]
